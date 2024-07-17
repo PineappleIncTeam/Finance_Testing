@@ -1,0 +1,61 @@
+name: Freenance_v2_Automated_tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_target:
+        description: Choose target
+        required: true
+        default: all
+        type: choice
+        options:
+          - tests_start_page
+          - all
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: ./.github/gh-pages
+
+      - name: Set test command
+        run: |
+          case "${{ github.event.inputs.deployment_target }}" in
+            tests_start_page)
+              echo "TEST_COMMAND=pytest -sv tests/test_start_page --alluredir=allure-results";;
+            
+            all)
+              echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> $GITHUB_ENV;;
+
+      - name: Run Tests using docker-compose
+        run: |
+          docker-compose up --exit-code-from regression || true
+
+      - name: Copy history from gh-pages to allure-results
+        run: |
+          sudo mkdir -p allure-results/history
+          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+
+      - name: Generate Allure report
+        run: |
+          sudo docker-compose run regression /bin/sh -c "allure generate allure-results --clean -o allure-report"
+
+      - name: Update Allure history
+        run: |
+          sudo cp -R allure-report/history/* ./.github/gh-pages/history/
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          token: ${{ secrets.DEMO_BURGERS_v2 }}
+          branch: gh-pages
+          folder: allure-report
+          clean: true

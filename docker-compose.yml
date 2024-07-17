@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  regression:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/usr/workspace
+
+    # Local run
+    command: /bin/sh -c "ls -la && pytest -sv --alluredir=allure-results"
+    working_dir: /usr/workspace
+
+    # Github Run
+    #    command: /bin/sh -c "ls -la && ${TEST_COMMAND}"
