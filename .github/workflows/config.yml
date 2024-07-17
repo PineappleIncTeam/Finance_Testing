@@ -34,7 +34,6 @@ jobs:
               echo "TEST_COMMAND=pytest -sv tests/test_start_page --alluredir=allure-results" >> $GITHUB_ENV;;
             all)
               echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> $GITHUB_ENV;;
-          esac
 
       - name: Run Tests using docker-compose
         run: docker-compose up --exit-code-from regression || true
