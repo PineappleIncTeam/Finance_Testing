@@ -8,9 +8,11 @@ services:
     volumes:
       - ./:/usr/workspace
 
-    # Local run
-    command: /bin/sh -c "ls -la && pytest -sv --alluredir=allure-results"
-    working_dir: /usr/workspace
+    command: /bin/sh -c "ls -la && ${TEST_COMMAND}"
 
-    # Github Run
-    #    command: /bin/sh -c "ls -la && ${TEST_COMMAND}"
+#    # Local run
+#    command: /bin/sh -c "ls -la && pytest -sv --alluredir=allure-results"
+#    working_dir: /usr/workspace
+
+#     Github Run
+
