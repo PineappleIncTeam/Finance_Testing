@@ -1,5 +1,608 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "IndexError: list index out of range",
+      "children" : [ {
+        "name" : "test_redirection_cookie_article[1920x1080]",
+        "uid" : "60dd728d91639aec",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230263527,
+          "stop" : 1721230264574,
+          "duration" : 1047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1080", "1920" ]
+      }, {
+        "name" : "test_redirection_cookie_article[1440x960]",
+        "uid" : "6360dcb512d4b454",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230266634,
+          "stop" : 1721230267680,
+          "duration" : 1046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1440" ]
+      }, {
+        "name" : "test_redirection_cookie_article[360x640]",
+        "uid" : "e555b36827f9ec78",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230275146,
+          "stop" : 1721230276186,
+          "duration" : 1040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      } ],
+      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_headers_links[Blog-1920x1080]",
+        "uid" : "9f7ed404fd614928",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230285823,
+          "stop" : 1721230295904,
+          "duration" : 10081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1080", "'//p[contains(text(),'Блог')]'", "1920" ]
+      }, {
+        "name" : "test_headers_links[Blog-1440x960]",
+        "uid" : "d73c2d7da1b830bb",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230297662,
+          "stop" : 1721230307738,
+          "duration" : 10076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "960", "'//p[contains(text(),'Блог')]'", "1440" ]
+      }, {
+        "name" : "test_headers_links[About app-1920x1080]",
+        "uid" : "780b1d3ff32cbfe2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230309472,
+          "stop" : 1721230319547,
+          "duration" : 10075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1080", "'//p[contains(text(),'О приложении')]'", "1920" ]
+      }, {
+        "name" : "test_headers_links[About app-1440x960]",
+        "uid" : "b5a73d5932985a18",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230321492,
+          "stop" : 1721230331567,
+          "duration" : 10075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "960", "'//p[contains(text(),'О приложении')]'", "1440" ]
+      }, {
+        "name" : "test_navbar_menu_links[1024x1366-Blog]",
+        "uid" : "b371330d97a2adbf",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230510433,
+          "stop" : 1721230520553,
+          "duration" : 10120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1366", "'//p[contains(text(),'Блог')]'", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[1024x1366-About app]",
+        "uid" : "e4e72f1e2e54cdd0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230522418,
+          "stop" : 1721230532539,
+          "duration" : 10121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1366", "'//p[contains(text(),'О приложении')]'", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[900x1024-Blog]",
+        "uid" : "fdf2f253e5bee573",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230543162,
+          "stop" : 1721230553270,
+          "duration" : 10108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1024", "'//p[contains(text(),'Блог')]'", "900" ]
+      }, {
+        "name" : "test_navbar_menu_links[900x1024-About app]",
+        "uid" : "68b993738aecb236",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230555106,
+          "stop" : 1721230565224,
+          "duration" : 10118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1024", "'//p[contains(text(),'О приложении')]'", "900" ]
+      }, {
+        "name" : "test_navbar_menu_links[768x1024-Blog]",
+        "uid" : "747ffa75d5bde2fc",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230575727,
+          "stop" : 1721230585839,
+          "duration" : 10112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1024", "'//p[contains(text(),'Блог')]'", "768" ]
+      }, {
+        "name" : "test_navbar_menu_links[768x1024-About app]",
+        "uid" : "da03d37fb3c7caa0",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230587693,
+          "stop" : 1721230597813,
+          "duration" : 10120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1024", "'//p[contains(text(),'О приложении')]'", "768" ]
+      }, {
+        "name" : "test_navbar_menu_links[500x640-Blog]",
+        "uid" : "9a0a88c6ba0b18be",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230609167,
+          "stop" : 1721230619283,
+          "duration" : 10116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "640", "'//p[contains(text(),'Блог')]'", "500" ]
+      }, {
+        "name" : "test_navbar_menu_links[500x640-About app]",
+        "uid" : "fd3c218d2418d014",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230621127,
+          "stop" : 1721230631236,
+          "duration" : 10109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "640", "'//p[contains(text(),'О приложении')]'", "500" ]
+      }, {
+        "name" : "test_navbar_menu_links[360x640-Blog]",
+        "uid" : "26f59d0c3292e814",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230641122,
+          "stop" : 1721230651238,
+          "duration" : 10116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "640", "'//p[contains(text(),'Блог')]'", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[360x640-About app]",
+        "uid" : "378f14498dc59957",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230652938,
+          "stop" : 1721230663053,
+          "duration" : 10115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "640", "'//p[contains(text(),'О приложении')]'", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[359x640-Blog]",
+        "uid" : "858487812a181ca9",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230673995,
+          "stop" : 1721230684109,
+          "duration" : 10114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "640", "'//p[contains(text(),'Блог')]'", "359" ]
+      }, {
+        "name" : "test_navbar_menu_links[359x640-About app]",
+        "uid" : "8bea619a2c7f20b2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230685783,
+          "stop" : 1721230695898,
+          "duration" : 10115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "640", "'//p[contains(text(),'О приложении')]'", "359" ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7987d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"88324885ae0217bdabca5f4940abf63c\", element=\"edbf5654-54da-4b5f-9b31-9a7a1e58497c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"88324885ae0217bdabca5f4940abf63c\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7987d0>> = <pages.start_page.StartPage object at 0x7facae7987d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"88324885ae0217bdabca5f4940abf63c\")> = <pages.start_page.StartPage object at 0x7facae7987d0>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Logo img-1920x1080]",
+        "uid" : "ed5f6c5e7e0187ae",
+        "parentUid" : "3db6db02f9363be43f53c5bb3c8598d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230361442,
+          "stop" : 1721230361472,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1080", "'//img[@alt='Логотип']'", "1920" ]
+      } ],
+      "uid" : "3db6db02f9363be43f53c5bb3c8598d9"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818b50>>(<selenium.webdriver.remote.webelement.WebElement (session=\"c053e847395ab795cdfcc76022003f5a\", element=\"bd8eb2f9-8b72-4f8a-a459-25beb00f1f34\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c053e847395ab795cdfcc76022003f5a\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818b50>> = <pages.start_page.StartPage object at 0x7facae818b50>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c053e847395ab795cdfcc76022003f5a\")> = <pages.start_page.StartPage object at 0x7facae818b50>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Logo img-1440x960]",
+        "uid" : "43ac4d00d2c460f8",
+        "parentUid" : "f94121731b4f9e4b7de20388cde94140",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230363738,
+          "stop" : 1721230363776,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "960", "'//img[@alt='Логотип']'", "1440" ]
+      } ],
+      "uid" : "f94121731b4f9e4b7de20388cde94140"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae81b210>>(<selenium.webdriver.remote.webelement.WebElement (session=\"4dd00788799740428bffb511a520521d\", element=\"f4b4595a-4c86-458a-a038-941e35917c2e\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4dd00788799740428bffb511a520521d\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae81b210>> = <pages.start_page.StartPage object at 0x7facae81b210>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4dd00788799740428bffb511a520521d\")> = <pages.start_page.StartPage object at 0x7facae81b210>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Logo img-1024x1366]",
+        "uid" : "ca1b5df65b45a088",
+        "parentUid" : "6d8152f1837f958a44bddce4c2b03b82",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230365726,
+          "stop" : 1721230365756,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1366", "'//img[@alt='Логотип']'", "1024" ]
+      } ],
+      "uid" : "6d8152f1837f958a44bddce4c2b03b82"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818d90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"d5107fed40c9c299191e1ed73426b541\", element=\"1bca4fbe-a541-46df-a33d-2593049c5c3b\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d5107fed40c9c299191e1ed73426b541\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818d90>> = <pages.start_page.StartPage object at 0x7facae818d90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d5107fed40c9c299191e1ed73426b541\")> = <pages.start_page.StartPage object at 0x7facae818d90>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Logo img-768x1024]",
+        "uid" : "6f66c9e6416e0425",
+        "parentUid" : "3a894c2653f53796fadd535852d0f564",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230367642,
+          "stop" : 1721230367672,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1024", "'//img[@alt='Логотип']'", "768" ]
+      } ],
+      "uid" : "3a894c2653f53796fadd535852d0f564"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f2bd0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"299f6ca54ac496e73b09264b302ec4fc\", element=\"4e6b5f88-df3d-452f-b67e-1ec27a2013d0\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"299f6ca54ac496e73b09264b302ec4fc\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f2bd0>> = <pages.start_page.StartPage object at 0x7facae7f2bd0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"299f6ca54ac496e73b09264b302ec4fc\")> = <pages.start_page.StartPage object at 0x7facae7f2bd0>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Logo img-360x640]",
+        "uid" : "cd1bccdfd0398cf3",
+        "parentUid" : "3417d44994be7e894db396f718985238",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230369480,
+          "stop" : 1721230369510,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "640", "'//img[@alt='Логотип']'", "360" ]
+      } ],
+      "uid" : "3417d44994be7e894db396f718985238"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae76b7d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"4e5949aab96b585ba5d54fb10d7bc6f5\", element=\"7c16f175-a48c-422c-8488-41456780a022\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4e5949aab96b585ba5d54fb10d7bc6f5\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae76b7d0>> = <pages.start_page.StartPage object at 0x7facae76b7d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4e5949aab96b585ba5d54fb10d7bc6f5\")> = <pages.start_page.StartPage object at 0x7facae76b7d0>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Main img-1920x1080]",
+        "uid" : "3f387a250e27188f",
+        "parentUid" : "5066844b84863a26184d4cadb4b2954c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230371177,
+          "stop" : 1721230371219,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1080", "'(//div/img)[1]'", "1920" ]
+      } ],
+      "uid" : "5066844b84863a26184d4cadb4b2954c"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f8850>>(<selenium.webdriver.remote.webelement.WebElement (session=\"d61ad37102542cbbe4e30b5c458ff382\", element=\"45dd3535-18c7-4c4e-b9fd-1f4667dfee60\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d61ad37102542cbbe4e30b5c458ff382\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f8850>> = <pages.start_page.StartPage object at 0x7facae7f8850>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d61ad37102542cbbe4e30b5c458ff382\")> = <pages.start_page.StartPage object at 0x7facae7f8850>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Main img-1440x960]",
+        "uid" : "67b83b68641ab5e2",
+        "parentUid" : "d98bfd03b196e2fc9769a269e8a0da51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230373229,
+          "stop" : 1721230373265,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "960", "'(//div/img)[1]'", "1440" ]
+      } ],
+      "uid" : "d98bfd03b196e2fc9769a269e8a0da51"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b43d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"1cb191eae06824068a588e653a6d7a20\", element=\"4ea852b5-37dd-4991-ad81-1a8fb9748a27\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb191eae06824068a588e653a6d7a20\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b43d0>> = <pages.start_page.StartPage object at 0x7facae7b43d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb191eae06824068a588e653a6d7a20\")> = <pages.start_page.StartPage object at 0x7facae7b43d0>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Main img-1024x1366]",
+        "uid" : "3e43fd961b9923c5",
+        "parentUid" : "7cce8fa77a0a6ffcfb290f32df1bec26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230375135,
+          "stop" : 1721230385241,
+          "duration" : 10106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1366", "'(//div/img)[1]'", "1024" ]
+      } ],
+      "uid" : "7cce8fa77a0a6ffcfb290f32df1bec26"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae786e10>>(<selenium.webdriver.remote.webelement.WebElement (session=\"24a3412138c703545d6eabac730a4fc8\", element=\"1487d573-ada5-4ae1-a23d-9004e1a81290\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"24a3412138c703545d6eabac730a4fc8\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae786e10>> = <pages.start_page.StartPage object at 0x7facae786e10>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"24a3412138c703545d6eabac730a4fc8\")> = <pages.start_page.StartPage object at 0x7facae786e10>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Main img-768x1024]",
+        "uid" : "ddc51fd86ff6b489",
+        "parentUid" : "c272ee85451a6fd161d0e396e9023d6e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230386947,
+          "stop" : 1721230397058,
+          "duration" : 10111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1024", "'(//div/img)[1]'", "768" ]
+      } ],
+      "uid" : "c272ee85451a6fd161d0e396e9023d6e"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ba10>>(<selenium.webdriver.remote.webelement.WebElement (session=\"79a9b06c3434b85046f37d8a7826ab96\", element=\"f011e58c-a891-447b-93dd-33f1599ffc18\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"79a9b06c3434b85046f37d8a7826ab96\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ba10>> = <pages.start_page.StartPage object at 0x7facae80ba10>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"79a9b06c3434b85046f37d8a7826ab96\")> = <pages.start_page.StartPage object at 0x7facae80ba10>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[normal_mode-Main img-360x640]",
+        "uid" : "a599d01e10558131",
+        "parentUid" : "fe96d416f01eaba8f28738953e8e2ecb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230398761,
+          "stop" : 1721230408869,
+          "duration" : 10108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "640", "'(//div/img)[1]'", "360" ]
+      } ],
+      "uid" : "fe96d416f01eaba8f28738953e8e2ecb"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7ff1d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"1cb3563de2a330ba2448fba2563a9bb5\", element=\"525ac1dd-4f0d-4461-a5fc-e05f59ef3902\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb3563de2a330ba2448fba2563a9bb5\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7ff1d0>> = <pages.start_page.StartPage object at 0x7facae7ff1d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb3563de2a330ba2448fba2563a9bb5\")> = <pages.start_page.StartPage object at 0x7facae7ff1d0>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Logo img-1920x1080]",
+        "uid" : "33dca2213e138613",
+        "parentUid" : "f1721a70246ad8b1c5ff0e0a033e6309",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230410532,
+          "stop" : 1721230410562,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1080", "'//img[@alt='Логотип']'", "1920" ]
+      } ],
+      "uid" : "f1721a70246ad8b1c5ff0e0a033e6309"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae84f210>>(<selenium.webdriver.remote.webelement.WebElement (session=\"c542b6e3c2493a1de31918b57d74f88c\", element=\"752959d1-47dd-44d9-b51d-5ef7055a62c2\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c542b6e3c2493a1de31918b57d74f88c\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae84f210>> = <pages.start_page.StartPage object at 0x7facae84f210>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c542b6e3c2493a1de31918b57d74f88c\")> = <pages.start_page.StartPage object at 0x7facae84f210>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Logo img-1440x960]",
+        "uid" : "4fd912dd7f5f8e74",
+        "parentUid" : "f47d09fa4e822b242fbb2c9ea58b2305",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230412334,
+          "stop" : 1721230412364,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "960", "'//img[@alt='Логотип']'", "1440" ]
+      } ],
+      "uid" : "f47d09fa4e822b242fbb2c9ea58b2305"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7e08d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"7fa009e15ae8fd6b3d1136bfbe621bbd\", element=\"48f3fb4d-0f40-48da-86ea-e1273806b2ee\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7fa009e15ae8fd6b3d1136bfbe621bbd\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7e08d0>> = <pages.start_page.StartPage object at 0x7facae7e08d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7fa009e15ae8fd6b3d1136bfbe621bbd\")> = <pages.start_page.StartPage object at 0x7facae7e08d0>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Logo img-1024x1366]",
+        "uid" : "c0dc1f8d416a5d63",
+        "parentUid" : "dd335da56f3d88a4ce53035b0b297f0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230414142,
+          "stop" : 1721230414172,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1366", "'//img[@alt='Логотип']'", "1024" ]
+      } ],
+      "uid" : "dd335da56f3d88a4ce53035b0b297f0b"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7fe550>>(<selenium.webdriver.remote.webelement.WebElement (session=\"5dc291f6e8fe13ffaa7a9ae38a9caccd\", element=\"da988ed8-20ee-45fb-8977-9a4baa9b0ded\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5dc291f6e8fe13ffaa7a9ae38a9caccd\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7fe550>> = <pages.start_page.StartPage object at 0x7facae7fe550>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5dc291f6e8fe13ffaa7a9ae38a9caccd\")> = <pages.start_page.StartPage object at 0x7facae7fe550>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Logo img-768x1024]",
+        "uid" : "53970135a2d88e0e",
+        "parentUid" : "bf2e1297bc9fc6ea6dc2945b0264297c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230416223,
+          "stop" : 1721230416260,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1024", "'//img[@alt='Логотип']'", "768" ]
+      } ],
+      "uid" : "bf2e1297bc9fc6ea6dc2945b0264297c"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ae50>>(<selenium.webdriver.remote.webelement.WebElement (session=\"c12d7412db8c92258a78c60fbc5751fc\", element=\"94c2afaa-9eb1-4bb2-ad01-a9ef59ba227d\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c12d7412db8c92258a78c60fbc5751fc\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ae50>> = <pages.start_page.StartPage object at 0x7facae80ae50>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c12d7412db8c92258a78c60fbc5751fc\")> = <pages.start_page.StartPage object at 0x7facae80ae50>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Logo img-360x640]",
+        "uid" : "4b60ec7b1d18384f",
+        "parentUid" : "024ebed6112accc334fa1a2397c31733",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230418023,
+          "stop" : 1721230418062,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "640", "'//img[@alt='Логотип']'", "360" ]
+      } ],
+      "uid" : "024ebed6112accc334fa1a2397c31733"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae811390>>(<selenium.webdriver.remote.webelement.WebElement (session=\"6460dc86ca19fb2b3f268df80f43bb6c\", element=\"f8e7a3a1-f150-4c6f-ac11-75db9893e2fd\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6460dc86ca19fb2b3f268df80f43bb6c\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae811390>> = <pages.start_page.StartPage object at 0x7facae811390>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6460dc86ca19fb2b3f268df80f43bb6c\")> = <pages.start_page.StartPage object at 0x7facae811390>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Main img-1920x1080]",
+        "uid" : "917a61415d40745a",
+        "parentUid" : "9ed4da68db6108b0bf83fc325d924598",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230419702,
+          "stop" : 1721230419746,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1080", "'(//div/img)[1]'", "1920" ]
+      } ],
+      "uid" : "9ed4da68db6108b0bf83fc325d924598"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b4e90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"b81b0875a2e0ac172fa09da214237d30\", element=\"05352478-4359-4498-8f4c-8d916efb004c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b81b0875a2e0ac172fa09da214237d30\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b4e90>> = <pages.start_page.StartPage object at 0x7facae7b4e90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b81b0875a2e0ac172fa09da214237d30\")> = <pages.start_page.StartPage object at 0x7facae7b4e90>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Main img-1440x960]",
+        "uid" : "e74ae783dc91cbed",
+        "parentUid" : "31505e020069b9f533758405ce360cba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230423033,
+          "stop" : 1721230423062,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "960", "'(//div/img)[1]'", "1440" ]
+      } ],
+      "uid" : "31505e020069b9f533758405ce360cba"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae858550>>(<selenium.webdriver.remote.webelement.WebElement (session=\"db71243683829491232df19ce73c2fbd\", element=\"53249f86-2035-444d-a477-0d78feb22ba9\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"db71243683829491232df19ce73c2fbd\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae858550>> = <pages.start_page.StartPage object at 0x7facae858550>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"db71243683829491232df19ce73c2fbd\")> = <pages.start_page.StartPage object at 0x7facae858550>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Main img-1024x1366]",
+        "uid" : "99c6b64c8f552043",
+        "parentUid" : "fe0cff3219cad1c78ff03a7df2300bc5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230424926,
+          "stop" : 1721230435036,
+          "duration" : 10110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1366", "'(//div/img)[1]'", "1024" ]
+      } ],
+      "uid" : "fe0cff3219cad1c78ff03a7df2300bc5"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae8588d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"4acddf91bbd0d64f96d4f52f33315b63\", element=\"e28eaba6-e547-411d-a8a0-9af310b93b84\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4acddf91bbd0d64f96d4f52f33315b63\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae8588d0>> = <pages.start_page.StartPage object at 0x7facae8588d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4acddf91bbd0d64f96d4f52f33315b63\")> = <pages.start_page.StartPage object at 0x7facae8588d0>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Main img-768x1024]",
+        "uid" : "3223653cb6b417",
+        "parentUid" : "c8dc625a5bd3b8891a8f4e937c70427f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230436735,
+          "stop" : 1721230446842,
+          "duration" : 10107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1024", "'(//div/img)[1]'", "768" ]
+      } ],
+      "uid" : "c8dc625a5bd3b8891a8f4e937c70427f"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae856750>>(<selenium.webdriver.remote.webelement.WebElement (session=\"30f67848ec92b844524c11e4e584f2af\", element=\"dc38c3ad-3104-4cb1-9265-f7c3791cb3c5\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"30f67848ec92b844524c11e4e584f2af\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae856750>> = <pages.start_page.StartPage object at 0x7facae856750>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"30f67848ec92b844524c11e4e584f2af\")> = <pages.start_page.StartPage object at 0x7facae856750>.driver",
+      "children" : [ {
+        "name" : "test_img_visibility[incognito_mode-Main img-360x640]",
+        "uid" : "342775c007121d97",
+        "parentUid" : "9861bd573bcd35b3214b120856403a1a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230448510,
+          "stop" : 1721230458619,
+          "duration" : 10109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "640", "'(//div/img)[1]'", "360" ]
+      } ],
+      "uid" : "9861bd573bcd35b3214b120856403a1a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

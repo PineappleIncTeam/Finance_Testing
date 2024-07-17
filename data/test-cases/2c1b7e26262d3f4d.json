@@ -1,0 +1,228 @@
+{
+  "uid" : "2c1b7e26262d3f4d",
+  "name" : "test_navbar_menu_closing[768x1024]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_navbar_menu_closing",
+  "historyId" : "90f78f4fbd434ce4141355f4f3c29fe7",
+  "time" : {
+    "start" : 1721230500118,
+    "stop" : 1721230500217,
+    "duration" : 99
+  },
+  "description" : "Verify closing Navbar menu.",
+  "descriptionHtml" : "<p>Verify closing Navbar menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230498866,
+      "stop" : 1721230500118,
+      "duration" : 1252
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230498969,
+        "stop" : 1721230500106,
+        "duration" : 1137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230498503,
+      "stop" : 1721230498866,
+      "duration" : 363
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify closing Navbar menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Navbar meny icon",
+      "time" : {
+        "start" : 1721230500118,
+        "stop" : 1721230500166,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click Navbar X button",
+      "time" : {
+        "start" : 1721230500166,
+        "stop" : 1721230500212,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait element to be clickable and click",
+        "time" : {
+          "start" : 1721230500166,
+          "stop" : 1721230500212,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'//img[@alt = 'Крестик']'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify closing Navbar menu",
+      "time" : {
+        "start" : 1721230500212,
+        "stop" : 1721230500217,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait until element not located",
+        "time" : {
+          "start" : 1721230500212,
+          "stop" : 1721230500217,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "'//img[@alt = 'Крестик']'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230500218,
+      "stop" : 1721230500342,
+      "duration" : 124
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a5d33a2b899d36",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "4a5d33a2b899d36.png",
+      "type" : "image/png",
+      "size" : 35023
+    }, {
+      "uid" : "da88509ef4d30e65",
+      "name" : "Browser Logs",
+      "source" : "da88509ef4d30e65.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "1024"
+  }, {
+    "name" : "width",
+    "value" : "768"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2c1b7e26262d3f4d.json",
+  "parameterValues" : [ "1024", "768" ]
+}

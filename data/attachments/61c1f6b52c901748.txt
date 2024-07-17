@@ -1,0 +1,1 @@
+[{'level': 'SEVERE', 'message': 'https://dev.freenance.store/_next/static/media/showPassword.684cc33d.svg - Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES', 'source': 'network', 'timestamp': 1721230343868}]

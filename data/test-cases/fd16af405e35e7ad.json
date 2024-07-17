@@ -1,0 +1,198 @@
+{
+  "uid" : "fd16af405e35e7ad",
+  "name" : "test_navbar_menu_links[500x640-About Us]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_navbar_menu_links",
+  "historyId" : "8f6c416ddbc6c3ef6364cf3b51111011",
+  "time" : {
+    "start" : 1721230605419,
+    "stop" : 1721230607507,
+    "duration" : 2088
+  },
+  "description" : "Verify redirection using Navbar menu links.",
+  "descriptionHtml" : "<p>Verify redirection using Navbar menu links.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230603695,
+      "stop" : 1721230604029,
+      "duration" : 334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230604029,
+      "stop" : 1721230605418,
+      "duration" : 1389
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230604132,
+        "stop" : 1721230605406,
+        "duration" : 1274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection using Navbar menu links.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Navbar meny icon",
+      "time" : {
+        "start" : 1721230605419,
+        "stop" : 1721230605461,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click Navbar meny link",
+      "time" : {
+        "start" : 1721230605461,
+        "stop" : 1721230605496,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify redirection to https://dev.freenance.store/aboutUs",
+      "time" : {
+        "start" : 1721230605496,
+        "stop" : 1721230607507,
+        "duration" : 2011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230607508,
+      "stop" : 1721230607598,
+      "duration" : 90
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "56b11dc175020433",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "56b11dc175020433.png",
+      "type" : "image/png",
+      "size" : 26040
+    }, {
+      "uid" : "ce151b6bc17da548",
+      "name" : "Browser Logs",
+      "source" : "ce151b6bc17da548.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp_url",
+    "value" : "'https://dev.freenance.store/aboutUs'"
+  }, {
+    "name" : "height",
+    "value" : "640"
+  }, {
+    "name" : "lnk",
+    "value" : "'//p[contains(text(),'О нас')]'"
+  }, {
+    "name" : "width",
+    "value" : "500"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd16af405e35e7ad.json",
+  "parameterValues" : [ "'https://dev.freenance.store/aboutUs'", "640", "'//p[contains(text(),'О нас')]'", "500" ]
+}

@@ -1,5 +1,1469 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "5468e063e641",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "test_logo_main_redirection[Logo icon-1440x960]",
+        "uid" : "a6add4d61ee92784",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230349732,
+          "stop" : 1721230351815,
+          "duration" : 2083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "'//img[@alt='Логотип']'", "1440" ]
+      }, {
+        "name" : "test_cookies_register_btn[Registration-1024x1366]",
+        "uid" : "6131b55a8d2f4f38",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230252117,
+          "stop" : 1721230254165,
+          "duration" : 2048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "1366", "'(//button[contains(text(),'Регистрация')])[1]'", "1024" ]
+      }, {
+        "name" : "test_cookies_register_btn[Registration-1440x960]",
+        "uid" : "28cbed5cd207b997",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230248135,
+          "stop" : 1721230250177,
+          "duration" : 2042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "960", "'(//button[contains(text(),'Регистрация')])[1]'", "1440" ]
+      }, {
+        "name" : "test_headers_links[About Us-1920x1080]",
+        "uid" : "6af89b82dbedface",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230277842,
+          "stop" : 1721230279889,
+          "duration" : 2047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "1080", "'//p[contains(text(),'О нас')]'", "1920" ]
+      }, {
+        "name" : "test_navbar_menu_links[900x1024-About app]",
+        "uid" : "68b993738aecb236",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230555106,
+          "stop" : 1721230565224,
+          "duration" : 10118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1024", "'//p[contains(text(),'О приложении')]'", "900" ]
+      }, {
+        "name" : "test_navbar_menu_links[1024x1366-Blog]",
+        "uid" : "b371330d97a2adbf",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230510433,
+          "stop" : 1721230520553,
+          "duration" : 10120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1366", "'//p[contains(text(),'Блог')]'", "1024" ]
+      }, {
+        "name" : "test_cookies_closing[1440x960]",
+        "uid" : "cea4beb122bcbcd7",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230228957,
+          "stop" : 1721230231026,
+          "duration" : 2069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1440" ]
+      }, {
+        "name" : "test_navbar_menu_closing[1024x1366]",
+        "uid" : "eab022e91078380d",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230496419,
+          "stop" : 1721230496522,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1366", "1024" ]
+      }, {
+        "name" : "test_headers_links[About app-1440x960]",
+        "uid" : "b5a73d5932985a18",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230321492,
+          "stop" : 1721230331567,
+          "duration" : 10075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "960", "'//p[contains(text(),'О приложении')]'", "1440" ]
+      }, {
+        "name" : "test_headers_links[Registration-1920x1080]",
+        "uid" : "8fb86d1a8f2edd4d",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230339031,
+          "stop" : 1721230341078,
+          "duration" : 2047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "1080", "'(//button[contains(text(),'Регистрация')])[1]'", "1920" ]
+      }, {
+        "name" : "test_navbar_menu_links[360x640-Blog]",
+        "uid" : "26f59d0c3292e814",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230641122,
+          "stop" : 1721230651238,
+          "duration" : 10116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "640", "'//p[contains(text(),'Блог')]'", "360" ]
+      }, {
+        "name" : "test_navbar_menu[900x1024]",
+        "uid" : "5c4bccf7da66c679",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230487115,
+          "stop" : 1721230487185,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "900" ]
+      }, {
+        "name" : "test_navbar_menu_links[500x640-About app]",
+        "uid" : "fd3c218d2418d014",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230621127,
+          "stop" : 1721230631236,
+          "duration" : 10109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "640", "'//p[contains(text(),'О приложении')]'", "500" ]
+      }, {
+        "name" : "test_navbar_menu[768x1024]",
+        "uid" : "66b2f6c6c249c77e",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230488880,
+          "stop" : 1721230488952,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "768" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Main img-1440x960]",
+        "uid" : "e74ae783dc91cbed",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230423033,
+          "stop" : 1721230423062,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "960", "'(//div/img)[1]'", "1440" ]
+      }, {
+        "name" : "test_navbar_menu_links[1024x1366-Login]",
+        "uid" : "f5c354b543086779",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230534242,
+          "stop" : 1721230535335,
+          "duration" : 1093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "1366", "'//button[contains(text(),'Вход')]'", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_closing[500x640]",
+        "uid" : "12589ef04a2f0f8c",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230501894,
+          "stop" : 1721230501991,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "500" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Main img-1920x1080]",
+        "uid" : "917a61415d40745a",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230419702,
+          "stop" : 1721230419746,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1080", "'(//div/img)[1]'", "1920" ]
+      }, {
+        "name" : "test_logo_main_redirection[Logo icon-1920x1080]",
+        "uid" : "eb2bf5911383e90",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230345759,
+          "stop" : 1721230347851,
+          "duration" : 2092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1080", "'//img[@alt='Логотип']'", "1920" ]
+      }, {
+        "name" : "test_navbar_menu_links[500x640-Blog]",
+        "uid" : "9a0a88c6ba0b18be",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230609167,
+          "stop" : 1721230619283,
+          "duration" : 10116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "640", "'//p[contains(text(),'Блог')]'", "500" ]
+      }, {
+        "name" : "test_navbar_displayed[900x1024]",
+        "uid" : "f0b91f38a9d3c5ec",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230476635,
+          "stop" : 1721230476655,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "900" ]
+      }, {
+        "name" : "test_cookies_closing[768x1024]",
+        "uid" : "83614a044861fe20",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230236601,
+          "stop" : 1721230238662,
+          "duration" : 2061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "768" ]
+      }, {
+        "name" : "test_navbar_menu_links[359x640-About app]",
+        "uid" : "8bea619a2c7f20b2",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230685783,
+          "stop" : 1721230695898,
+          "duration" : 10115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "640", "'//p[contains(text(),'О приложении')]'", "359" ]
+      }, {
+        "name" : "test_site_access[768x1024]",
+        "uid" : "f2c7342dad07d547",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230211023,
+          "stop" : 1721230211037,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "768" ]
+      }, {
+        "name" : "test_navbar_menu_links[900x1024-Login]",
+        "uid" : "e771f093b8b639f8",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230567066,
+          "stop" : 1721230568164,
+          "duration" : 1098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "1024", "'//button[contains(text(),'Вход')]'", "900" ]
+      }, {
+        "name" : "test_navbar_menu_links[768x1024-About app]",
+        "uid" : "da03d37fb3c7caa0",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230587693,
+          "stop" : 1721230597813,
+          "duration" : 10120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1024", "'//p[contains(text(),'О приложении')]'", "768" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Logo img-1440x960]",
+        "uid" : "4fd912dd7f5f8e74",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230412334,
+          "stop" : 1721230412364,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "960", "'//img[@alt='Логотип']'", "1440" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Logo img-1440x960]",
+        "uid" : "43ac4d00d2c460f8",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230363738,
+          "stop" : 1721230363776,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "960", "'//img[@alt='Логотип']'", "1440" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Main img-1024x1366]",
+        "uid" : "3e43fd961b9923c5",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230375135,
+          "stop" : 1721230385241,
+          "duration" : 10106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1366", "'(//div/img)[1]'", "1024" ]
+      }, {
+        "name" : "test_logo_main_redirection[Main link-1440x960]",
+        "uid" : "1319570d61039c66",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230357546,
+          "stop" : 1721230359625,
+          "duration" : 2079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "'//p[contains(text(),'Главная')]'", "1440" ]
+      }, {
+        "name" : "test_navbar_menu_closing[900x1024]",
+        "uid" : "b8816a72da221ef9",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230498267,
+          "stop" : 1721230498365,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "900" ]
+      }, {
+        "name" : "test_site_access[1440x960]",
+        "uid" : "bc80cff4c362d287",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230206326,
+          "stop" : 1721230206335,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1440" ]
+      }, {
+        "name" : "test_navbar_menu_links[359x640-Registration]",
+        "uid" : "63a4027feb3af15c",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230700330,
+          "stop" : 1721230701424,
+          "duration" : 1094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "640", "'(//button[contains(text(),'Регистрация')])[1]'", "359" ]
+      }, {
+        "name" : "test_layout_horizontal[1366]",
+        "uid" : "ecd12944b6be7cc8",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230465930,
+          "stop" : 1721230467019,
+          "duration" : 1089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1366" ]
+      }, {
+        "name" : "test_navbar_menu_links[359x640-Login]",
+        "uid" : "d39d64aa31fd0010",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230697544,
+          "stop" : 1721230698645,
+          "duration" : 1101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "640", "'//button[contains(text(),'Вход')]'", "359" ]
+      }, {
+        "name" : "test_navbar_menu[360x640]",
+        "uid" : "7d42d1baec3b0a",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230492377,
+          "stop" : 1721230492449,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[500x640-Login]",
+        "uid" : "c9112edd1e0b7d97",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230632880,
+          "stop" : 1721230633975,
+          "duration" : 1095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "640", "'//button[contains(text(),'Вход')]'", "500" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Logo img-1920x1080]",
+        "uid" : "ed5f6c5e7e0187ae",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230361442,
+          "stop" : 1721230361472,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1080", "'//img[@alt='Логотип']'", "1920" ]
+      }, {
+        "name" : "test_redirection_cookie_article[1920x1080]",
+        "uid" : "60dd728d91639aec",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230263527,
+          "stop" : 1721230264574,
+          "duration" : 1047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1080", "1920" ]
+      }, {
+        "name" : "test_site_access[1920x1080]",
+        "uid" : "8b40b948713cba1a",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230203434,
+          "stop" : 1721230203451,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1080", "1920" ]
+      }, {
+        "name" : "test_cookie_wnd_presents[360x640]",
+        "uid" : "56294d0c5ade23de",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230223228,
+          "stop" : 1721230223256,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[360x640-Login]",
+        "uid" : "ca012ce0e655448",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230664725,
+          "stop" : 1721230665823,
+          "duration" : 1098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "640", "'//button[contains(text(),'Вход')]'", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[360x640-About Us]",
+        "uid" : "ecab3672b11842f4",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230638380,
+          "stop" : 1721230639478,
+          "duration" : 1098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "640", "'//p[contains(text(),'О нас')]'", "360" ]
+      }, {
+        "name" : "test_navbar_displayed[1024x1366]",
+        "uid" : "a03f95ba6ef9b816",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230474642,
+          "stop" : 1721230474663,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1366", "1024" ]
+      }, {
+        "name" : "test_headers_links[Login-1440x960]",
+        "uid" : "a05aca63aca16c5c",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230336121,
+          "stop" : 1721230337178,
+          "duration" : 1057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "960", "'//button[contains(text(),'Вход')]'", "1440" ]
+      }, {
+        "name" : "test_headers_links[Blog-1440x960]",
+        "uid" : "d73c2d7da1b830bb",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230297662,
+          "stop" : 1721230307738,
+          "duration" : 10076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "960", "'//p[contains(text(),'Блог')]'", "1440" ]
+      }, {
+        "name" : "test_cookies_register_btn[Registration-1920x1080]",
+        "uid" : "8e38a1dbc60e61e4",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230244077,
+          "stop" : 1721230246119,
+          "duration" : 2042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "1080", "'(//button[contains(text(),'Регистрация')])[1]'", "1920" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Logo img-1024x1366]",
+        "uid" : "ca1b5df65b45a088",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230365726,
+          "stop" : 1721230365756,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1366", "'//img[@alt='Логотип']'", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[900x1024-Registration]",
+        "uid" : "3c3c43719d6e2ce",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230570004,
+          "stop" : 1721230571090,
+          "duration" : 1086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "1024", "'(//button[contains(text(),'Регистрация')])[1]'", "900" ]
+      }, {
+        "name" : "test_navbar_displayed[500x640]",
+        "uid" : "c3bc8a3f727bade9",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230480272,
+          "stop" : 1721230480292,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "500" ]
+      }, {
+        "name" : "test_navbar_displayed[359x640]",
+        "uid" : "ef9a0a35fd09fd26",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230483617,
+          "stop" : 1721230483636,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "359" ]
+      }, {
+        "name" : "test_headers_links[Registration-1440x960]",
+        "uid" : "d26942d67b0dd8b4",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230342936,
+          "stop" : 1721230343980,
+          "duration" : 1044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "960", "'(//button[contains(text(),'Регистрация')])[1]'", "1440" ]
+      }, {
+        "name" : "test_navbar_menu_links[360x640-About app]",
+        "uid" : "378f14498dc59957",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230652938,
+          "stop" : 1721230663053,
+          "duration" : 10115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "640", "'//p[contains(text(),'О приложении')]'", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[359x640-About Us]",
+        "uid" : "6d98706d5b64b87a",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230670230,
+          "stop" : 1721230672328,
+          "duration" : 2098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "640", "'//p[contains(text(),'О нас')]'", "359" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Logo img-768x1024]",
+        "uid" : "6f66c9e6416e0425",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230367642,
+          "stop" : 1721230367672,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1024", "'//img[@alt='Логотип']'", "768" ]
+      }, {
+        "name" : "test_headers_links[Blog-1920x1080]",
+        "uid" : "9f7ed404fd614928",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230285823,
+          "stop" : 1721230295904,
+          "duration" : 10081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1080", "'//p[contains(text(),'Блог')]'", "1920" ]
+      }, {
+        "name" : "test_navbar_menu_closing[360x640]",
+        "uid" : "a25b77c355c311ce",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230503645,
+          "stop" : 1721230503743,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Main img-360x640]",
+        "uid" : "342775c007121d97",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230448510,
+          "stop" : 1721230458619,
+          "duration" : 10109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "640", "'(//div/img)[1]'", "360" ]
+      }, {
+        "name" : "test_cookies_closing[360x640]",
+        "uid" : "af6dd0c0d483c7f2",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230240332,
+          "stop" : 1721230242397,
+          "duration" : 2065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      }, {
+        "name" : "test_layout_horizontal[1280]",
+        "uid" : "b7e7938f98ed976",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230463070,
+          "stop" : 1721230464159,
+          "duration" : 1089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1280" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Main img-1920x1080]",
+        "uid" : "3f387a250e27188f",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230371177,
+          "stop" : 1721230371219,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1080", "'(//div/img)[1]'", "1920" ]
+      }, {
+        "name" : "test_navbar_menu_links[500x640-Registration]",
+        "uid" : "87ed1eb02cf5220d",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230635637,
+          "stop" : 1721230636723,
+          "duration" : 1086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "640", "'(//button[contains(text(),'Регистрация')])[1]'", "500" ]
+      }, {
+        "name" : "test_navbar_menu[1024x1366]",
+        "uid" : "ae5ce5af0b83913c",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230485318,
+          "stop" : 1721230485396,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1366", "1024" ]
+      }, {
+        "name" : "test_redirection_cookie_article[768x1024]",
+        "uid" : "c15dd61e57e7c638",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230272393,
+          "stop" : 1721230273441,
+          "duration" : 1048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "768" ]
+      }, {
+        "name" : "test_redirection_cookie_article[1024x1366]",
+        "uid" : "717f985998e7487f",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230269633,
+          "stop" : 1721230270682,
+          "duration" : 1049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1366", "1024" ]
+      }, {
+        "name" : "test_site_access[360x640]",
+        "uid" : "218655e50c0c3bb",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230212828,
+          "stop" : 1721230212842,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[1024x1366-About Us]",
+        "uid" : "77d1a367870efde9",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230507634,
+          "stop" : 1721230508731,
+          "duration" : 1097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "1366", "'//p[contains(text(),'О нас')]'", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[1024x1366-About app]",
+        "uid" : "e4e72f1e2e54cdd0",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230522418,
+          "stop" : 1721230532539,
+          "duration" : 10121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1366", "'//p[contains(text(),'О приложении')]'", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[768x1024-Login]",
+        "uid" : "f2166313040bfbcd",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230599684,
+          "stop" : 1721230600810,
+          "duration" : 1126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "1024", "'//button[contains(text(),'Вход')]'", "768" ]
+      }, {
+        "name" : "test_navbar_menu_links[359x640-Blog]",
+        "uid" : "858487812a181ca9",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230673995,
+          "stop" : 1721230684109,
+          "duration" : 10114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "640", "'//p[contains(text(),'Блог')]'", "359" ]
+      }, {
+        "name" : "test_navbar_menu_closing[768x1024]",
+        "uid" : "2c1b7e26262d3f4d",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230500118,
+          "stop" : 1721230500217,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "768" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Main img-1440x960]",
+        "uid" : "67b83b68641ab5e2",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230373229,
+          "stop" : 1721230373265,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "960", "'(//div/img)[1]'", "1440" ]
+      }, {
+        "name" : "test_cookies_register_btn[Registration-768x1024]",
+        "uid" : "721d3579fc71ba50",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230256060,
+          "stop" : 1721230258107,
+          "duration" : 2047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "1024", "'(//button[contains(text(),'Регистрация')])[1]'", "768" ]
+      }, {
+        "name" : "test_cookies_closing[1920x1080]",
+        "uid" : "7df40c1f999c0156",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230224937,
+          "stop" : 1721230226991,
+          "duration" : 2054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1080", "1920" ]
+      }, {
+        "name" : "test_layout_horizontal[1440]",
+        "uid" : "fef714a01eee0910",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230468821,
+          "stop" : 1721230469910,
+          "duration" : 1089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1440" ]
+      }, {
+        "name" : "test_navbar_menu[500x640]",
+        "uid" : "7f17b0e7c95f33ad",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230490650,
+          "stop" : 1721230490714,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "500" ]
+      }, {
+        "name" : "test_layout_horizontal[1025]",
+        "uid" : "bc866421b7a20ba7",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230460297,
+          "stop" : 1721230461386,
+          "duration" : 1089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1025" ]
+      }, {
+        "name" : "test_navbar_menu_links[768x1024-About Us]",
+        "uid" : "55e3914e2361244b",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230572786,
+          "stop" : 1721230573873,
+          "duration" : 1087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "1024", "'//p[contains(text(),'О нас')]'", "768" ]
+      }, {
+        "name" : "test_redirection_cookie_article[360x640]",
+        "uid" : "e555b36827f9ec78",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230275146,
+          "stop" : 1721230276186,
+          "duration" : 1040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      }, {
+        "name" : "test_navbar_menu[359x640]",
+        "uid" : "b1b3a16eef966777",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230494626,
+          "stop" : 1721230494695,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "359" ]
+      }, {
+        "name" : "test_navbar_menu_closing[359x640]",
+        "uid" : "d462da1f3f85bfa4",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230505889,
+          "stop" : 1721230505980,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "359" ]
+      }, {
+        "name" : "test_layout_horizontal[1920]",
+        "uid" : "2e62fa8b0c77076f",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230471712,
+          "stop" : 1721230472800,
+          "duration" : 1088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1920" ]
+      }, {
+        "name" : "test_cookie_wnd_presents[1920x1080]",
+        "uid" : "e288b08da1cb8c51",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230214649,
+          "stop" : 1721230214681,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1080", "1920" ]
+      }, {
+        "name" : "test_cookies_closing[1024x1366]",
+        "uid" : "4063a844f7aafd2c",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230232827,
+          "stop" : 1721230234883,
+          "duration" : 2056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1366", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[900x1024-Blog]",
+        "uid" : "fdf2f253e5bee573",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230543162,
+          "stop" : 1721230553270,
+          "duration" : 10108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1024", "'//p[contains(text(),'Блог')]'", "900" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Main img-768x1024]",
+        "uid" : "ddc51fd86ff6b489",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230386947,
+          "stop" : 1721230397058,
+          "duration" : 10111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "1024", "'(//div/img)[1]'", "768" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Main img-1024x1366]",
+        "uid" : "99c6b64c8f552043",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230424926,
+          "stop" : 1721230435036,
+          "duration" : 10110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1366", "'(//div/img)[1]'", "1024" ]
+      }, {
+        "name" : "test_cookie_wnd_presents[768x1024]",
+        "uid" : "16660b322c5f595",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230221139,
+          "stop" : 1721230221159,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "768" ]
+      }, {
+        "name" : "test_cookie_wnd_presents[1440x960]",
+        "uid" : "a592a0fce1076914",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230216630,
+          "stop" : 1721230216661,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1440" ]
+      }, {
+        "name" : "test_headers_links[About app-1920x1080]",
+        "uid" : "780b1d3ff32cbfe2",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230309472,
+          "stop" : 1721230319547,
+          "duration" : 10075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutApp'", "1080", "'//p[contains(text(),'О приложении')]'", "1920" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Logo img-1920x1080]",
+        "uid" : "33dca2213e138613",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230410532,
+          "stop" : 1721230410562,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1080", "'//img[@alt='Логотип']'", "1920" ]
+      }, {
+        "name" : "test_cookies_register_btn[Registration-360x640]",
+        "uid" : "9e5e596700a5e46f",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230259820,
+          "stop" : 1721230261871,
+          "duration" : 2051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "640", "'(//button[contains(text(),'Регистрация')])[1]'", "360" ]
+      }, {
+        "name" : "test_redirection_cookie_article[1440x960]",
+        "uid" : "6360dcb512d4b454",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230266634,
+          "stop" : 1721230267680,
+          "duration" : 1046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "960", "1440" ]
+      }, {
+        "name" : "test_navbar_menu_links[768x1024-Registration]",
+        "uid" : "cc0faf762df1d9f0",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230602480,
+          "stop" : 1721230603580,
+          "duration" : 1100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "1024", "'(//button[contains(text(),'Регистрация')])[1]'", "768" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Logo img-360x640]",
+        "uid" : "cd1bccdfd0398cf3",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230369480,
+          "stop" : 1721230369510,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "640", "'//img[@alt='Логотип']'", "360" ]
+      }, {
+        "name" : "test_navbar_displayed[360x640]",
+        "uid" : "784c8fdca935a70f",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230481934,
+          "stop" : 1721230481963,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "640", "360" ]
+      }, {
+        "name" : "test_navbar_menu_links[1024x1366-Registration]",
+        "uid" : "2858b2e5cd45228",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230537219,
+          "stop" : 1721230538305,
+          "duration" : 1086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "1366", "'(//button[contains(text(),'Регистрация')])[1]'", "1024" ]
+      }, {
+        "name" : "test_headers_links[About Us-1440x960]",
+        "uid" : "ef5fef7d2f0306e6",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230281838,
+          "stop" : 1721230283885,
+          "duration" : 2047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "960", "'//p[contains(text(),'О нас')]'", "1440" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Logo img-1024x1366]",
+        "uid" : "c0dc1f8d416a5d63",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230414142,
+          "stop" : 1721230414172,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1366", "'//img[@alt='Логотип']'", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[500x640-About Us]",
+        "uid" : "fd16af405e35e7ad",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230605419,
+          "stop" : 1721230607507,
+          "duration" : 2088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "640", "'//p[contains(text(),'О нас')]'", "500" ]
+      }, {
+        "name" : "test_navbar_displayed[768x1024]",
+        "uid" : "ee41f260093b567d",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230478544,
+          "stop" : 1721230478571,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1024", "768" ]
+      }, {
+        "name" : "test_navbar_menu_links[900x1024-About Us]",
+        "uid" : "d265702541afc59d",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230540222,
+          "stop" : 1721230541307,
+          "duration" : 1085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/aboutUs'", "1024", "'//p[contains(text(),'О нас')]'", "900" ]
+      }, {
+        "name" : "test_img_visibility[normal_mode-Main img-360x640]",
+        "uid" : "a599d01e10558131",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230398761,
+          "stop" : 1721230408869,
+          "duration" : 10108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "False", "640", "'(//div/img)[1]'", "360" ]
+      }, {
+        "name" : "test_logo_main_redirection[Main link-1920x1080]",
+        "uid" : "59159b7377b22ea7",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230353640,
+          "stop" : 1721230355719,
+          "duration" : 2079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1080", "'//p[contains(text(),'Главная')]'", "1920" ]
+      }, {
+        "name" : "test_headers_links[Login-1920x1080]",
+        "uid" : "fb44831accd0f2c0",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230333310,
+          "stop" : 1721230334362,
+          "duration" : 1052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/login'", "1080", "'//button[contains(text(),'Вход')]'", "1920" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Logo img-360x640]",
+        "uid" : "4b60ec7b1d18384f",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230418023,
+          "stop" : 1721230418062,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "640", "'//img[@alt='Логотип']'", "360" ]
+      }, {
+        "name" : "test_site_access[1024x1366]",
+        "uid" : "9f3a9968358b25ae",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230209034,
+          "stop" : 1721230209037,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1366", "1024" ]
+      }, {
+        "name" : "test_navbar_menu_links[360x640-Registration]",
+        "uid" : "38f8719b21083939",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230667474,
+          "stop" : 1721230668568,
+          "duration" : 1094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/signUp'", "640", "'(//button[contains(text(),'Регистрация')])[1]'", "360" ]
+      }, {
+        "name" : "test_cookie_wnd_presents[1024x1366]",
+        "uid" : "75e398cf971bfa7",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1721230218930,
+          "stop" : 1721230218951,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1366", "1024" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Main img-768x1024]",
+        "uid" : "3223653cb6b417",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230436735,
+          "stop" : 1721230446842,
+          "duration" : 10107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1024", "'(//div/img)[1]'", "768" ]
+      }, {
+        "name" : "test_img_visibility[incognito_mode-Logo img-768x1024]",
+        "uid" : "53970135a2d88e0e",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1721230416223,
+          "stop" : 1721230416260,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "True", "1024", "'//img[@alt='Логотип']'", "768" ]
+      }, {
+        "name" : "test_navbar_menu_links[768x1024-Blog]",
+        "uid" : "747ffa75d5bde2fc",
+        "parentUid" : "b053c8da5ba78379ab84935e4c7ea75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1721230575727,
+          "stop" : 1721230585839,
+          "duration" : 10112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'https://dev.freenance.store/blog'", "1024", "'//p[contains(text(),'Блог')]'", "768" ]
+      } ],
+      "uid" : "b053c8da5ba78379ab84935e4c7ea75d"
+    } ],
+    "uid" : "9f7261e56619ab3c3191725374b21446"
+  } ],
   "name" : "timeline"
 }

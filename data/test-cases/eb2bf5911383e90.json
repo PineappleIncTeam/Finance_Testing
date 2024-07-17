@@ -1,0 +1,210 @@
+{
+  "uid" : "eb2bf5911383e90",
+  "name" : "test_logo_main_redirection[Logo icon-1920x1080]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_logo_main_redirection",
+  "historyId" : "9ffd1a34fe740788ce70f2a8ba8bdadb",
+  "time" : {
+    "start" : 1721230345759,
+    "stop" : 1721230347851,
+    "duration" : 2092
+  },
+  "description" : "Verify redirection to Main page (LOGO, Main link).",
+  "descriptionHtml" : "<p>Verify redirection to Main page (LOGO, Main link).</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230344199,
+      "stop" : 1721230344535,
+      "duration" : 336
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230344535,
+      "stop" : 1721230345759,
+      "duration" : 1224
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230344638,
+        "stop" : 1721230345756,
+        "duration" : 1118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection to Main page (LOGO, Main link).",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get random Header link",
+      "time" : {
+        "start" : 1721230345759,
+        "stop" : 1721230345759,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click random Header link",
+      "time" : {
+        "start" : 1721230345759,
+        "stop" : 1721230347807,
+        "duration" : 2048
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click Logo icon/Main lnk",
+      "time" : {
+        "start" : 1721230347807,
+        "stop" : 1721230347842,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify redirection to Start page url",
+      "time" : {
+        "start" : 1721230347842,
+        "stop" : 1721230347850,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230347852,
+      "stop" : 1721230348061,
+      "duration" : 209
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "98ee5f79d169138f",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "98ee5f79d169138f.png",
+      "type" : "image/png",
+      "size" : 133156
+    }, {
+      "uid" : "2018b7fd5e288aa6",
+      "name" : "Browser Logs",
+      "source" : "2018b7fd5e288aa6.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "1080"
+  }, {
+    "name" : "lnk",
+    "value" : "'//img[@alt='Логотип']'"
+  }, {
+    "name" : "width",
+    "value" : "1920"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb2bf5911383e90.json",
+  "parameterValues" : [ "1080", "'//img[@alt='Логотип']'", "1920" ]
+}

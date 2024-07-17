@@ -1,0 +1,177 @@
+{
+  "uid" : "cea4beb122bcbcd7",
+  "name" : "test_cookies_closing[1440x960]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_cookies_closing",
+  "historyId" : "28ceee042fa9c4d0d1c5bd815c303cdb",
+  "time" : {
+    "start" : 1721230228957,
+    "stop" : 1721230231026,
+    "duration" : 2069
+  },
+  "description" : "Verify closing of cookies window.",
+  "descriptionHtml" : "<p>Verify closing of cookies window.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230227210,
+      "stop" : 1721230227543,
+      "duration" : 333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230227543,
+      "stop" : 1721230228957,
+      "duration" : 1414
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230227646,
+        "stop" : 1721230228951,
+        "duration" : 1305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify closing of cookies window.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click 'x' btn on Cookies window",
+      "time" : {
+        "start" : 1721230228957,
+        "stop" : 1721230231007,
+        "duration" : 2050
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Cookies window is closed",
+      "time" : {
+        "start" : 1721230231007,
+        "stop" : 1721230231025,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230231027,
+      "stop" : 1721230231269,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "905a2ae793b81c00",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "905a2ae793b81c00.png",
+      "type" : "image/png",
+      "size" : 295247
+    }, {
+      "uid" : "1dfb4d23d43b727",
+      "name" : "Browser Logs",
+      "source" : "1dfb4d23d43b727.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "960"
+  }, {
+    "name" : "width",
+    "value" : "1440"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cea4beb122bcbcd7.json",
+  "parameterValues" : [ "960", "1440" ]
+}

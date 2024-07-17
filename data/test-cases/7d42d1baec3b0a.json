@@ -1,0 +1,177 @@
+{
+  "uid" : "7d42d1baec3b0a",
+  "name" : "test_navbar_menu[360x640]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_navbar_menu",
+  "historyId" : "761b79b07fbffcd97b5fdfc815332952",
+  "time" : {
+    "start" : 1721230492377,
+    "stop" : 1721230492449,
+    "duration" : 72
+  },
+  "description" : "Verify displaying Navbar menu.",
+  "descriptionHtml" : "<p>Verify displaying Navbar menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230491155,
+      "stop" : 1721230492377,
+      "duration" : 1222
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230491258,
+        "stop" : 1721230492370,
+        "duration" : 1112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230490822,
+      "stop" : 1721230491155,
+      "duration" : 333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify displaying Navbar menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Navbar meny icon",
+      "time" : {
+        "start" : 1721230492377,
+        "stop" : 1721230492428,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify displaying Navbar menu",
+      "time" : {
+        "start" : 1721230492428,
+        "stop" : 1721230492449,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230492450,
+      "stop" : 1721230492550,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "20bb3f83f3bf8b1c",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "20bb3f83f3bf8b1c.png",
+      "type" : "image/png",
+      "size" : 46454
+    }, {
+      "uid" : "3e6538b3a4afa418",
+      "name" : "Browser Logs",
+      "source" : "3e6538b3a4afa418.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "640"
+  }, {
+    "name" : "width",
+    "value" : "360"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d42d1baec3b0a.json",
+  "parameterValues" : [ "640", "360" ]
+}

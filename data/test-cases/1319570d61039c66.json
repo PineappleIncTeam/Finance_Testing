@@ -1,0 +1,210 @@
+{
+  "uid" : "1319570d61039c66",
+  "name" : "test_logo_main_redirection[Main link-1440x960]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_logo_main_redirection",
+  "historyId" : "39fa8e644e702d79159345a6b1b2519e",
+  "time" : {
+    "start" : 1721230357546,
+    "stop" : 1721230359625,
+    "duration" : 2079
+  },
+  "description" : "Verify redirection to Main page (LOGO, Main link).",
+  "descriptionHtml" : "<p>Verify redirection to Main page (LOGO, Main link).</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230355930,
+      "stop" : 1721230356263,
+      "duration" : 333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230356263,
+      "stop" : 1721230357546,
+      "duration" : 1283
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230356366,
+        "stop" : 1721230357529,
+        "duration" : 1163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection to Main page (LOGO, Main link).",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get random Header link",
+      "time" : {
+        "start" : 1721230357546,
+        "stop" : 1721230357546,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click random Header link",
+      "time" : {
+        "start" : 1721230357546,
+        "stop" : 1721230359583,
+        "duration" : 2037
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click Logo icon/Main lnk",
+      "time" : {
+        "start" : 1721230359583,
+        "stop" : 1721230359617,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify redirection to Start page url",
+      "time" : {
+        "start" : 1721230359617,
+        "stop" : 1721230359625,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230359626,
+      "stop" : 1721230359864,
+      "duration" : 238
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "73016533a7ed8435",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "73016533a7ed8435.png",
+      "type" : "image/png",
+      "size" : 254935
+    }, {
+      "uid" : "a8f8c6f924787fa2",
+      "name" : "Browser Logs",
+      "source" : "a8f8c6f924787fa2.txt",
+      "type" : "text/plain",
+      "size" : 253
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "960"
+  }, {
+    "name" : "lnk",
+    "value" : "'//p[contains(text(),'Главная')]'"
+  }, {
+    "name" : "width",
+    "value" : "1440"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1319570d61039c66.json",
+  "parameterValues" : [ "960", "'//p[contains(text(),'Главная')]'", "1440" ]
+}

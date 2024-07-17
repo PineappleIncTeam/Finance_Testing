@@ -1,0 +1,208 @@
+{
+  "uid" : "da03d37fb3c7caa0",
+  "name" : "test_navbar_menu_links[768x1024-About app]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_navbar_menu_links",
+  "historyId" : "2a99179c800820d510ddbf2017d5e0c1",
+  "time" : {
+    "start" : 1721230587693,
+    "stop" : 1721230597813,
+    "duration" : 10120
+  },
+  "description" : "Verify redirection using Navbar menu links.",
+  "descriptionHtml" : "<p>Verify redirection using Navbar menu links.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <tests.test_start_page.TestStartPage object at 0x7facaeae5f50>\nstart_p = <pages.start_page.StartPage object at 0x7facae5c0710>, width = 768\nheight = 1024, lnk = \"//p[contains(text(),'О приложении')]\"\nexp_url = 'https://dev.freenance.store/aboutApp'\n\n    @pytest.mark.parametrize(\"lnk, exp_url\", header_links)\n    @pytest.mark.parametrize('width, height', window_width_navbar)\n    def test_navbar_menu_links(self, start_p, width, height, lnk, exp_url):\n        \"\"\"Verify redirection using Navbar menu links.\"\"\"\n        with allure.step(\"Click Navbar meny icon\"):\n            start_p.get_element(start_p.NAVBAR_BURGER).click()\n    \n        with allure.step(\"Click Navbar meny link\"):\n            start_p.get_element(lnk).click()\n    \n        with allure.step(f\"Verify redirection to {exp_url}\"):\n>           start_p.is_opened(exp_url)\n\ntests/test_start_page.py:180: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/main.py:53: in is_opened\n    self.wait.until(Ec.url_to_be(url))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"acf7a263d3a1293420848774fa1696c4\")>\nmethod = <function url_to_be.<locals>._predicate at 0x7facae797100>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.11/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230586305,
+      "stop" : 1721230587692,
+      "duration" : 1387
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230586407,
+        "stop" : 1721230587684,
+        "duration" : 1277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230585962,
+      "stop" : 1721230586304,
+      "duration" : 342
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection using Navbar menu links.",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <tests.test_start_page.TestStartPage object at 0x7facaeae5f50>\nstart_p = <pages.start_page.StartPage object at 0x7facae5c0710>, width = 768\nheight = 1024, lnk = \"//p[contains(text(),'О приложении')]\"\nexp_url = 'https://dev.freenance.store/aboutApp'\n\n    @pytest.mark.parametrize(\"lnk, exp_url\", header_links)\n    @pytest.mark.parametrize('width, height', window_width_navbar)\n    def test_navbar_menu_links(self, start_p, width, height, lnk, exp_url):\n        \"\"\"Verify redirection using Navbar menu links.\"\"\"\n        with allure.step(\"Click Navbar meny icon\"):\n            start_p.get_element(start_p.NAVBAR_BURGER).click()\n    \n        with allure.step(\"Click Navbar meny link\"):\n            start_p.get_element(lnk).click()\n    \n        with allure.step(f\"Verify redirection to {exp_url}\"):\n>           start_p.is_opened(exp_url)\n\ntests/test_start_page.py:180: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/main.py:53: in is_opened\n    self.wait.until(Ec.url_to_be(url))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"acf7a263d3a1293420848774fa1696c4\")>\nmethod = <function url_to_be.<locals>._predicate at 0x7facae797100>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            time.sleep(self._poll)\n            if time.monotonic() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.11/site-packages/selenium/webdriver/support/wait.py:105: TimeoutException",
+    "steps" : [ {
+      "name" : "Click Navbar meny icon",
+      "time" : {
+        "start" : 1721230587693,
+        "stop" : 1721230587745,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click Navbar meny link",
+      "time" : {
+        "start" : 1721230587745,
+        "stop" : 1721230587782,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify redirection to https://dev.freenance.store/aboutApp",
+      "time" : {
+        "start" : 1721230587782,
+        "stop" : 1721230597812,
+        "duration" : 10030
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/test_start_page.py\", line 180, in test_navbar_menu_links\n    start_p.is_opened(exp_url)\n  File \"/usr/workspace/pages/main.py\", line 53, in is_opened\n    self.wait.until(Ec.url_to_be(url))\n  File \"/usr/local/lib/python3.11/site-packages/selenium/webdriver/support/wait.py\", line 105, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230597833,
+      "stop" : 1721230597961,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "234c41f62891f1e4",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "234c41f62891f1e4.png",
+      "type" : "image/png",
+      "size" : 66423
+    }, {
+      "uid" : "463c4da3c5f13c66",
+      "name" : "Browser Logs",
+      "source" : "463c4da3c5f13c66.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp_url",
+    "value" : "'https://dev.freenance.store/aboutApp'"
+  }, {
+    "name" : "height",
+    "value" : "1024"
+  }, {
+    "name" : "lnk",
+    "value" : "'//p[contains(text(),'О приложении')]'"
+  }, {
+    "name" : "width",
+    "value" : "768"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "da03d37fb3c7caa0.json",
+  "parameterValues" : [ "'https://dev.freenance.store/aboutApp'", "1024", "'//p[contains(text(),'О приложении')]'", "768" ]
+}

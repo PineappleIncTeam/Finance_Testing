@@ -1,0 +1,187 @@
+{
+  "uid" : "e555b36827f9ec78",
+  "name" : "test_redirection_cookie_article[360x640]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_redirection_cookie_article",
+  "historyId" : "066cba7dbdcad513b7b0a2f4ec85b5ca",
+  "time" : {
+    "start" : 1721230275146,
+    "stop" : 1721230276186,
+    "duration" : 1040
+  },
+  "description" : "Verify redirection to Wiki Cookie article.",
+  "descriptionHtml" : "<p>Verify redirection to Wiki Cookie article.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <tests.test_start_page.TestStartPage object at 0x7facaeaf6810>\nstart_p = <pages.start_page.StartPage object at 0x7facae7c6f50>, width = 360\nheight = 640\n\n    @pytest.mark.parametrize(\"width, height\", resolution)\n    def test_redirection_cookie_article(self, start_p, width, height):\n        \"\"\"Verify redirection to Wiki Cookie article.\"\"\"\n        with allure.step(\"Click 'cookie' link in Cookie popup window\"):\n            start_p.get_element(start_p.COOKIE_LNK).click()\n    \n        with allure.step(\"Switch to the new opened tab\"):\n            time.sleep(1)\n>           start_p.driver.switch_to.window(start_p.driver.window_handles[1])\nE           IndexError: list index out of range\n\ntests/test_start_page.py:74: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230273576,
+      "stop" : 1721230273911,
+      "duration" : 335
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230273911,
+      "stop" : 1721230275145,
+      "duration" : 1234
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230274014,
+        "stop" : 1721230275130,
+        "duration" : 1116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify redirection to Wiki Cookie article.",
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <tests.test_start_page.TestStartPage object at 0x7facaeaf6810>\nstart_p = <pages.start_page.StartPage object at 0x7facae7c6f50>, width = 360\nheight = 640\n\n    @pytest.mark.parametrize(\"width, height\", resolution)\n    def test_redirection_cookie_article(self, start_p, width, height):\n        \"\"\"Verify redirection to Wiki Cookie article.\"\"\"\n        with allure.step(\"Click 'cookie' link in Cookie popup window\"):\n            start_p.get_element(start_p.COOKIE_LNK).click()\n    \n        with allure.step(\"Switch to the new opened tab\"):\n            time.sleep(1)\n>           start_p.driver.switch_to.window(start_p.driver.window_handles[1])\nE           IndexError: list index out of range\n\ntests/test_start_page.py:74: IndexError",
+    "steps" : [ {
+      "name" : "Click 'cookie' link in Cookie popup window",
+      "time" : {
+        "start" : 1721230275146,
+        "stop" : 1721230275184,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Switch to the new opened tab",
+      "time" : {
+        "start" : 1721230275184,
+        "stop" : 1721230276185,
+        "duration" : 1001
+      },
+      "status" : "broken",
+      "statusMessage" : "IndexError: list index out of range\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/test_start_page.py\", line 74, in test_redirection_cookie_article\n    start_p.driver.switch_to.window(start_p.driver.window_handles[1])\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230276190,
+      "stop" : 1721230276283,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5203319f0577e2f",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "d5203319f0577e2f.png",
+      "type" : "image/png",
+      "size" : 79284
+    }, {
+      "uid" : "715c417db02d48cc",
+      "name" : "Browser Logs",
+      "source" : "715c417db02d48cc.txt",
+      "type" : "text/plain",
+      "size" : 2878
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "640"
+  }, {
+    "name" : "width",
+    "value" : "360"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e555b36827f9ec78.json",
+  "parameterValues" : [ "640", "360" ]
+}

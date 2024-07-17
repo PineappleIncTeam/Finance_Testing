@@ -1,0 +1,183 @@
+{
+  "uid" : "a05aca63aca16c5c",
+  "name" : "test_headers_links[Login-1440x960]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_headers_links",
+  "historyId" : "d8a2454d0658c3798d06c10835f2b326",
+  "time" : {
+    "start" : 1721230336121,
+    "stop" : 1721230337178,
+    "duration" : 1057
+  },
+  "description" : "Verify Header's links redirection.",
+  "descriptionHtml" : "<p>Verify Header's links redirection.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721230334553,
+      "stop" : 1721230334886,
+      "duration" : 333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721230334886,
+      "stop" : 1721230336121,
+      "duration" : 1235
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721230334989,
+        "stop" : 1721230336116,
+        "duration" : 1127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Header's links redirection.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Header link",
+      "time" : {
+        "start" : 1721230336121,
+        "stop" : 1721230336170,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify redirection to https://dev.freenance.store/login",
+      "time" : {
+        "start" : 1721230336170,
+        "stop" : 1721230337177,
+        "duration" : 1007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721230337179,
+      "stop" : 1721230337330,
+      "duration" : 151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a46685383fc01181",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "a46685383fc01181.png",
+      "type" : "image/png",
+      "size" : 46746
+    }, {
+      "uid" : "8a666f887f340f6b",
+      "name" : "Browser Logs",
+      "source" : "8a666f887f340f6b.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "5468e063e641"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp_url",
+    "value" : "'https://dev.freenance.store/login'"
+  }, {
+    "name" : "height",
+    "value" : "960"
+  }, {
+    "name" : "lnk",
+    "value" : "'//button[contains(text(),'Вход')]'"
+  }, {
+    "name" : "width",
+    "value" : "1440"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a05aca63aca16c5c.json",
+  "parameterValues" : [ "'https://dev.freenance.store/login'", "960", "'//button[contains(text(),'Вход')]'", "1440" ]
+}
