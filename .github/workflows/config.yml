@@ -10,14 +10,14 @@ on:
         type: choice
         options:
           - Start_page
-          - tests_ui
-          - test_account_page
-          - test_main_page
-          - test_login_page
-          - test_orders_page
-          - test_registration_page
-          - test_restore_pwd
-          - tests_integration
+          - Start_site_access
+#          - test_account_page
+#          - test_main_page
+#          - test_login_page
+#          - test_orders_page
+#          - test_registration_page
+#          - test_restore_pwd
+#          - tests_integration
           - all
 
 jobs:
@@ -49,8 +49,8 @@ jobs:
           case "${{ github.event.inputs.deployment_target }}" in
             Start_page)
               echo "TEST_COMMAND=pytest -sv tests/test_start_page/ --alluredir=allure-results" >> .env ;;
-#            tests_ui)
-#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env ;;
+            Start_site_access)
+              echo "TEST_COMMAND=pytest -sv tests/test_start_page.py::TestStartPage::test_site_access --alluredir=allure-results" >> .env ;;
 #            test_account_page)
 #              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page.py --alluredir=allure-results" >> .env ;;
 #            test_main_page)
