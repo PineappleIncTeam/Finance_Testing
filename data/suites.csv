@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Jul 17 15:14:36 GMT 2024","Wed Jul 17 15:14:36 GMT 2024","3","tests","test_start_page","TestStartPage","","","test_site_access[1024x1366]","Verify access to site."
-"passed","Wed Jul 17 15:14:39 GMT 2024","Wed Jul 17 15:14:39 GMT 2024","12","tests","test_start_page","TestStartPage","","","test_site_access[360x640]","Verify access to site."
-"passed","Wed Jul 17 15:14:31 GMT 2024","Wed Jul 17 15:14:31 GMT 2024","3","tests","test_start_page","TestStartPage","","","test_site_access[1920x1080]","Verify access to site."
-"passed","Wed Jul 17 15:14:37 GMT 2024","Wed Jul 17 15:14:37 GMT 2024","3","tests","test_start_page","TestStartPage","","","test_site_access[768x1024]","Verify access to site."
-"passed","Wed Jul 17 15:14:33 GMT 2024","Wed Jul 17 15:14:33 GMT 2024","2","tests","test_start_page","TestStartPage","","","test_site_access[1440x960]","Verify access to site."
