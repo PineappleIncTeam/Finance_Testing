@@ -1,1 +1,0 @@
-[{'level': 'SEVERE', 'message': 'https://dev.freenance.store/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FmeditatingMan.dc1d1c2f.png&w=640&q=75 - Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES', 'source': 'network', 'timestamp': 1721230359796}]

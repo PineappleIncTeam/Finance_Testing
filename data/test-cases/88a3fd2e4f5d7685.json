@@ -1,0 +1,162 @@
+{
+  "uid" : "88a3fd2e4f5d7685",
+  "name" : "test_cookie_wnd_presents[1440x960]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_cookie_wnd_presents",
+  "historyId" : "1f3b62b7a8151d18979cf35b0e01f908",
+  "time" : {
+    "start" : 1721236793252,
+    "stop" : 1721236793273,
+    "duration" : 21
+  },
+  "description" : "Verify presence of cookies popup window.",
+  "descriptionHtml" : "<p>Verify presence of cookies popup window.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721236790949,
+      "stop" : 1721236791291,
+      "duration" : 342
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721236791292,
+      "stop" : 1721236793251,
+      "duration" : 1959
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721236791394,
+        "stop" : 1721236793236,
+        "duration" : 1842
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Verify presence of cookies popup window.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify presence of cookies popup window",
+      "time" : {
+        "start" : 1721236793252,
+        "stop" : 1721236793273,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721236793274,
+      "stop" : 1721236793421,
+      "duration" : 147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b141ec93121ed0c6",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "b141ec93121ed0c6.png",
+      "type" : "image/png",
+      "size" : 100912
+    }, {
+      "uid" : "910ca56c9ee3306a",
+      "name" : "Browser Logs",
+      "source" : "910ca56c9ee3306a.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "637d2c564b90"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "960"
+  }, {
+    "name" : "width",
+    "value" : "1440"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88a3fd2e4f5d7685.json",
+  "parameterValues" : [ "960", "1440" ]
+}

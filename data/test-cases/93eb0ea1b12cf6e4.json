@@ -1,0 +1,199 @@
+{
+  "uid" : "93eb0ea1b12cf6e4",
+  "name" : "test_img_visibility[incognito_mode-Logo img-1024x1366]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_img_visibility",
+  "historyId" : "a585e85f0d127fd8840d1f61739a578d",
+  "time" : {
+    "start" : 1721237005554,
+    "stop" : 1721237005586,
+    "duration" : 32
+  },
+  "description" : "Verify visibility of the images (Logo, Main).",
+  "descriptionHtml" : "<p>Verify visibility of the images (Logo, Main).</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>>(<selenium.webdriver.remote.webelement.WebElement (session=\"29978276b2a4e49642faa7939b9efd70\", element=\"59d632c9-9b89-4c12-9a41-2a60eed5be0c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>> = <pages.start_page.StartPage object at 0x7f9a2429b490>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")> = <pages.start_page.StartPage object at 0x7f9a2429b490>.driver",
+  "statusTrace" : "self = <tests.test_start_page.TestStartPage object at 0x7f9a253b4c90>\nstart_p = <pages.start_page.StartPage object at 0x7f9a2429b490>\nimg = \"//img[@alt='Логотип']\", width = 1024, height = 1366\n\n    @pytest.mark.parametrize(\"width, height\", resolution)\n    @pytest.mark.parametrize(\"img\", start_img_pc)\n    @pytest.mark.parametrize(\"browser\", [False, True],\n                             ids=[\"normal_mode\", \"incognito_mode\"],\n                             indirect=True)\n    def test_img_visibility(self, start_p, img, width, height):\n        \"\"\"Verify visibility of the images (Logo, Main).\"\"\"\n        logo_img = start_p.get_element(img)\n    \n        with allure.step(\"Verify visibility of the image\"):\n>           assert start_p.check_image_visibility(logo_img, start_p.driver)\nE           assert False\nE            +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>>(<selenium.webdriver.remote.webelement.WebElement (session=\"29978276b2a4e49642faa7939b9efd70\", element=\"59d632c9-9b89-4c12-9a41-2a60eed5be0c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")>)\nE            +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>> = <pages.start_page.StartPage object at 0x7f9a2429b490>.check_image_visibility\nE            +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")> = <pages.start_page.StartPage object at 0x7f9a2429b490>.driver\n\ntests/test_start_page.py:116: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721237004297,
+      "stop" : 1721237005553,
+      "duration" : 1256
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721237004400,
+        "stop" : 1721237005540,
+        "duration" : 1140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721237003963,
+      "stop" : 1721237004296,
+      "duration" : 333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify visibility of the images (Logo, Main).",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>>(<selenium.webdriver.remote.webelement.WebElement (session=\"29978276b2a4e49642faa7939b9efd70\", element=\"59d632c9-9b89-4c12-9a41-2a60eed5be0c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>> = <pages.start_page.StartPage object at 0x7f9a2429b490>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")> = <pages.start_page.StartPage object at 0x7f9a2429b490>.driver",
+    "statusTrace" : "self = <tests.test_start_page.TestStartPage object at 0x7f9a253b4c90>\nstart_p = <pages.start_page.StartPage object at 0x7f9a2429b490>\nimg = \"//img[@alt='Логотип']\", width = 1024, height = 1366\n\n    @pytest.mark.parametrize(\"width, height\", resolution)\n    @pytest.mark.parametrize(\"img\", start_img_pc)\n    @pytest.mark.parametrize(\"browser\", [False, True],\n                             ids=[\"normal_mode\", \"incognito_mode\"],\n                             indirect=True)\n    def test_img_visibility(self, start_p, img, width, height):\n        \"\"\"Verify visibility of the images (Logo, Main).\"\"\"\n        logo_img = start_p.get_element(img)\n    \n        with allure.step(\"Verify visibility of the image\"):\n>           assert start_p.check_image_visibility(logo_img, start_p.driver)\nE           assert False\nE            +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>>(<selenium.webdriver.remote.webelement.WebElement (session=\"29978276b2a4e49642faa7939b9efd70\", element=\"59d632c9-9b89-4c12-9a41-2a60eed5be0c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")>)\nE            +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>> = <pages.start_page.StartPage object at 0x7f9a2429b490>.check_image_visibility\nE            +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")> = <pages.start_page.StartPage object at 0x7f9a2429b490>.driver\n\ntests/test_start_page.py:116: AssertionError",
+    "steps" : [ {
+      "name" : "Verify visibility of the image",
+      "time" : {
+        "start" : 1721237005567,
+        "stop" : 1721237005585,
+        "duration" : 18
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>>(<selenium.webdriver.remote.webelement.WebElement (session=\"29978276b2a4e49642faa7939b9efd70\", element=\"59d632c9-9b89-4c12-9a41-2a60eed5be0c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>> = <pages.start_page.StartPage object at 0x7f9a2429b490>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")> = <pages.start_page.StartPage object at 0x7f9a2429b490>.driver\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/test_start_page.py\", line 116, in test_img_visibility\n    assert start_p.check_image_visibility(logo_img, start_p.driver)\n",
+      "steps" : [ {
+        "name" : "Check image visibility",
+        "time" : {
+          "start" : 1721237005568,
+          "stop" : 1721237005585,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"29978276b2a4e49642faa7939b9efd70\", element=\"59d632c9-9b89-4c12-9a41-2a60eed5be0c\")>"
+        }, {
+          "name" : "driver",
+          "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721237005592,
+      "stop" : 1721237005757,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a85833a65b6f0c9d",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "a85833a65b6f0c9d.png",
+      "type" : "image/png",
+      "size" : 51364
+    }, {
+      "uid" : "8e2689d511f27e0e",
+      "name" : "Browser Logs",
+      "source" : "8e2689d511f27e0e.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "637d2c564b90"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "True"
+  }, {
+    "name" : "height",
+    "value" : "1366"
+  }, {
+    "name" : "img",
+    "value" : "'//img[@alt='Логотип']'"
+  }, {
+    "name" : "width",
+    "value" : "1024"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "93eb0ea1b12cf6e4.json",
+  "parameterValues" : [ "True", "1366", "'//img[@alt='Логотип']'", "1024" ]
+}

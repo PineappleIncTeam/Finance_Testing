@@ -1,0 +1,249 @@
+{
+  "uid" : "3fc22224ec8ec2b1",
+  "name" : "test_layout_horizontal[1440]",
+  "fullName" : "tests.test_start_page.TestStartPage#test_layout_horizontal",
+  "historyId" : "d0b578facd44e336b3065c83d9d45545",
+  "time" : {
+    "start" : 1721237058810,
+    "stop" : 1721237059901,
+    "duration" : 1091
+  },
+  "description" : "Verify horizontal page layout (Header's links).",
+  "descriptionHtml" : "<p>Verify horizontal page layout (Header's links).</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_p",
+    "time" : {
+      "start" : 1721237057570,
+      "stop" : 1721237058810,
+      "duration" : 1240
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to site",
+      "time" : {
+        "start" : 1721237057673,
+        "stop" : 1721237058801,
+        "duration" : 1128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1721237057228,
+      "stop" : 1721237057570,
+      "duration" : 342
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify horizontal page layout (Header's links).",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify not crossing Header's links",
+      "time" : {
+        "start" : 1721237058810,
+        "stop" : 1721237059901,
+        "duration" : 1091
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get locators of Header's links",
+        "time" : {
+          "start" : 1721237059811,
+          "stop" : 1721237059811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Get two object rectangle position",
+        "time" : {
+          "start" : 1721237059811,
+          "stop" : 1721237059846,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "0"
+        }, {
+          "name" : "coordinate",
+          "value" : "'x'"
+        }, {
+          "name" : "border_side",
+          "value" : "'width'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Get two object rectangle position",
+        "time" : {
+          "start" : 1721237059846,
+          "stop" : 1721237059873,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "1"
+        }, {
+          "name" : "coordinate",
+          "value" : "'x'"
+        }, {
+          "name" : "border_side",
+          "value" : "'width'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Get two object rectangle position",
+        "time" : {
+          "start" : 1721237059873,
+          "stop" : 1721237059901,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "2"
+        }, {
+          "name" : "coordinate",
+          "value" : "'x'"
+        }, {
+          "name" : "border_side",
+          "value" : "'width'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1721237059902,
+      "stop" : 1721237060062,
+      "duration" : 160
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "647320fd314f4dff",
+      "name" : "Screenshot <class 'datetime.datetime'>",
+      "source" : "647320fd314f4dff.png",
+      "type" : "image/png",
+      "size" : 100912
+    }, {
+      "uid" : "9619d35a08dd9de8",
+      "name" : "Browser Logs",
+      "source" : "9619d35a08dd9de8.txt",
+      "type" : "text/plain",
+      "size" : 2
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_start_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStartPage"
+  }, {
+    "name" : "host",
+    "value" : "637d2c564b90"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_start_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "height",
+    "value" : "960"
+  }, {
+    "name" : "width",
+    "value" : "1440"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fc22224ec8ec2b1.json",
+  "parameterValues" : [ "960", "1440" ]
+}

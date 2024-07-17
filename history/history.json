@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d462da1f3f85bfa4",
+      "uid" : "40e01a8da44076d5",
       "status" : "passed",
       "time" : {
-        "start" : 1721230505889,
-        "stop" : 1721230505980,
-        "duration" : 91
+        "start" : 1721237096798,
+        "stop" : 1721237096890,
+        "duration" : 92
       }
     } ]
   },
@@ -28,32 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d42d1baec3b0a",
+      "uid" : "1ad6cb8d4b05b11f",
       "status" : "passed",
       "time" : {
-        "start" : 1721230492377,
-        "stop" : 1721230492449,
-        "duration" : 72
-      }
-    } ]
-  },
-  "45ae5367232cbba2a74af6f4ce6e39d4" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6f66c9e6416e0425",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818d90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"d5107fed40c9c299191e1ed73426b541\", element=\"1bca4fbe-a541-46df-a33d-2593049c5c3b\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d5107fed40c9c299191e1ed73426b541\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818d90>> = <pages.start_page.StartPage object at 0x7facae818d90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d5107fed40c9c299191e1ed73426b541\")> = <pages.start_page.StartPage object at 0x7facae818d90>.driver",
-      "time" : {
-        "start" : 1721230367642,
-        "stop" : 1721230367672,
-        "duration" : 30
+        "start" : 1721237083263,
+        "stop" : 1721237083327,
+        "duration" : 64
       }
     } ]
   },
@@ -67,12 +47,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "12589ef04a2f0f8c",
+      "uid" : "6f6814232d8593cf",
       "status" : "passed",
       "time" : {
-        "start" : 1721230501894,
-        "stop" : 1721230501991,
-        "duration" : 97
+        "start" : 1721237092730,
+        "stop" : 1721237092830,
+        "duration" : 100
+      }
+    } ]
+  },
+  "45ae5367232cbba2a74af6f4ce6e39d4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2051f42701f19d51",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242c1b90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"8c98031946df71d99163e9143c5d3fe3\", element=\"af5d8d3b-5573-4264-bafc-e807173c0b81\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8c98031946df71d99163e9143c5d3fe3\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242c1b90>> = <pages.start_page.StartPage object at 0x7f9a242c1b90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"8c98031946df71d99163e9143c5d3fe3\")> = <pages.start_page.StartPage object at 0x7f9a242c1b90>.driver",
+      "time" : {
+        "start" : 1721236958885,
+        "stop" : 1721236958922,
+        "duration" : 37
       }
     } ]
   },
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c15dd61e57e7c638",
+      "uid" : "66c74822bd92eb87",
       "status" : "passed",
       "time" : {
-        "start" : 1721230272393,
-        "stop" : 1721230273441,
-        "duration" : 1048
+        "start" : 1721236851606,
+        "stop" : 1721236852668,
+        "duration" : 1062
       }
     } ]
   },
@@ -105,32 +105,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e555b36827f9ec78",
+      "uid" : "f36dcb9ba50dbda2",
       "status" : "broken",
       "statusDetails" : "IndexError: list index out of range",
       "time" : {
-        "start" : 1721230275146,
-        "stop" : 1721230276186,
-        "duration" : 1040
+        "start" : 1721236854540,
+        "stop" : 1721236855589,
+        "duration" : 1049
       }
     } ]
   },
   "eab67e3c3fcb5e46210c2956d2d4748e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "717f985998e7487f",
-      "status" : "passed",
+      "uid" : "7754b1ce3519429b",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
       "time" : {
-        "start" : 1721230269633,
-        "stop" : 1721230270682,
-        "duration" : 1049
+        "start" : 1721236848826,
+        "stop" : 1721236849876,
+        "duration" : 1050
       }
     } ]
   },
@@ -144,12 +145,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5c4bccf7da66c679",
+      "uid" : "938bb0e1be761348",
       "status" : "passed",
       "time" : {
-        "start" : 1721230487115,
-        "stop" : 1721230487185,
-        "duration" : 70
+        "start" : 1721237077913,
+        "stop" : 1721237077984,
+        "duration" : 71
       }
     } ]
   },
@@ -163,13 +164,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f387a250e27188f",
+      "uid" : "afac3d790b936f90",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae76b7d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"4e5949aab96b585ba5d54fb10d7bc6f5\", element=\"7c16f175-a48c-422c-8488-41456780a022\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4e5949aab96b585ba5d54fb10d7bc6f5\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae76b7d0>> = <pages.start_page.StartPage object at 0x7facae76b7d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4e5949aab96b585ba5d54fb10d7bc6f5\")> = <pages.start_page.StartPage object at 0x7facae76b7d0>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a241f40d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"1636ea9d6316528da3ffac79df4c46e9\", element=\"97a659a4-4f9e-4167-9dba-4ccd5647c7a6\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1636ea9d6316528da3ffac79df4c46e9\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a241f40d0>> = <pages.start_page.StartPage object at 0x7f9a241f40d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1636ea9d6316528da3ffac79df4c46e9\")> = <pages.start_page.StartPage object at 0x7f9a241f40d0>.driver",
       "time" : {
-        "start" : 1721230371177,
-        "stop" : 1721230371219,
-        "duration" : 42
+        "start" : 1721236962851,
+        "stop" : 1721236962890,
+        "duration" : 39
       }
     } ]
   },
@@ -183,13 +184,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "378f14498dc59957",
+      "uid" : "733be60ee139c369",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230652938,
-        "stop" : 1721230663053,
-        "duration" : 10115
+        "start" : 1721237242809,
+        "stop" : 1721237252926,
+        "duration" : 10117
       }
     } ]
   },
@@ -203,31 +204,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9e5e596700a5e46f",
+      "uid" : "116a48b2bde269dd",
       "status" : "passed",
       "time" : {
-        "start" : 1721230259820,
-        "stop" : 1721230261871,
-        "duration" : 2051
+        "start" : 1721236839194,
+        "stop" : 1721236841247,
+        "duration" : 2053
       }
     } ]
   },
   "27ce36a3393013e878a1e0f41983ead4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8fb86d1a8f2edd4d",
-      "status" : "passed",
+      "uid" : "b93641a7b34cdd98",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230339031,
-        "stop" : 1721230341078,
-        "duration" : 2047
+        "start" : 1721236921944,
+        "stop" : 1721236932020,
+        "duration" : 10076
       }
     } ]
   },
@@ -241,12 +243,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ecab3672b11842f4",
+      "uid" : "ebfda7b5499f6094",
       "status" : "passed",
       "time" : {
-        "start" : 1721230638380,
-        "stop" : 1721230639478,
-        "duration" : 1098
+        "start" : 1721237228251,
+        "stop" : 1721237229339,
+        "duration" : 1088
       }
     } ]
   },
@@ -260,12 +262,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4063a844f7aafd2c",
+      "uid" : "42dacd4a0a3c8dd8",
       "status" : "passed",
       "time" : {
-        "start" : 1721230232827,
-        "stop" : 1721230234883,
-        "duration" : 2056
+        "start" : 1721236812012,
+        "stop" : 1721236814070,
+        "duration" : 2058
       }
     } ]
   },
@@ -279,12 +281,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d26942d67b0dd8b4",
+      "uid" : "6170a85eee78fbe8",
       "status" : "passed",
       "time" : {
-        "start" : 1721230342936,
-        "stop" : 1721230343980,
-        "duration" : 1044
+        "start" : 1721236933817,
+        "stop" : 1721236934869,
+        "duration" : 1052
       }
     } ]
   },
@@ -298,12 +300,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75e398cf971bfa7",
+      "uid" : "f968d4cc69a16fae",
       "status" : "passed",
       "time" : {
-        "start" : 1721230218930,
-        "stop" : 1721230218951,
-        "duration" : 21
+        "start" : 1721236797248,
+        "stop" : 1721236797268,
+        "duration" : 20
       }
     } ]
   },
@@ -317,12 +319,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca012ce0e655448",
+      "uid" : "4f6d6f07177404e5",
       "status" : "passed",
       "time" : {
-        "start" : 1721230664725,
-        "stop" : 1721230665823,
-        "duration" : 1098
+        "start" : 1721237254788,
+        "stop" : 1721237255884,
+        "duration" : 1096
       }
     } ]
   },
@@ -336,13 +338,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8bea619a2c7f20b2",
+      "uid" : "5c4783b882d0eeb9",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230685783,
-        "stop" : 1721230695898,
-        "duration" : 10115
+        "start" : 1721237274893,
+        "stop" : 1721237285013,
+        "duration" : 10120
       }
     } ]
   },
@@ -356,31 +358,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae5ce5af0b83913c",
+      "uid" : "966d3665e991d751",
       "status" : "passed",
       "time" : {
-        "start" : 1721230485318,
-        "stop" : 1721230485396,
-        "duration" : 78
-      }
-    } ]
-  },
-  "4078fad0bbe45f74ba31bc8f66614fb7" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "721d3579fc71ba50",
-      "status" : "passed",
-      "time" : {
-        "start" : 1721230256060,
-        "stop" : 1721230258107,
-        "duration" : 2047
+        "start" : 1721237076062,
+        "stop" : 1721237076137,
+        "duration" : 75
       }
     } ]
   },
@@ -394,13 +377,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca1b5df65b45a088",
+      "uid" : "e53882856628cbb2",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae81b210>>(<selenium.webdriver.remote.webelement.WebElement (session=\"4dd00788799740428bffb511a520521d\", element=\"f4b4595a-4c86-458a-a038-941e35917c2e\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4dd00788799740428bffb511a520521d\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae81b210>> = <pages.start_page.StartPage object at 0x7facae81b210>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4dd00788799740428bffb511a520521d\")> = <pages.start_page.StartPage object at 0x7facae81b210>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242595d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"a24ae1f83d6fc38d824d698dccf5e221\", element=\"5cb2b3c2-223b-48b6-ba4e-d8ab3eee9933\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a24ae1f83d6fc38d824d698dccf5e221\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242595d0>> = <pages.start_page.StartPage object at 0x7f9a242595d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a24ae1f83d6fc38d824d698dccf5e221\")> = <pages.start_page.StartPage object at 0x7f9a242595d0>.driver",
       "time" : {
-        "start" : 1721230365726,
-        "stop" : 1721230365756,
-        "duration" : 30
+        "start" : 1721236957127,
+        "stop" : 1721236957168,
+        "duration" : 41
+      }
+    } ]
+  },
+  "4078fad0bbe45f74ba31bc8f66614fb7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b87614d97caa8f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721236835474,
+        "stop" : 1721236837522,
+        "duration" : 2048
       }
     } ]
   },
@@ -414,13 +416,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43ac4d00d2c460f8",
+      "uid" : "9a906b1e0ad4c66f",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818b50>>(<selenium.webdriver.remote.webelement.WebElement (session=\"c053e847395ab795cdfcc76022003f5a\", element=\"bd8eb2f9-8b72-4f8a-a459-25beb00f1f34\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c053e847395ab795cdfcc76022003f5a\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae818b50>> = <pages.start_page.StartPage object at 0x7facae818b50>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c053e847395ab795cdfcc76022003f5a\")> = <pages.start_page.StartPage object at 0x7facae818b50>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242b9fd0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"a4cbcc337af3e2301530770006ececa8\", element=\"ad17338a-a9c8-453d-a6dc-5aa2394e8feb\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a4cbcc337af3e2301530770006ececa8\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242b9fd0>> = <pages.start_page.StartPage object at 0x7f9a242b9fd0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a4cbcc337af3e2301530770006ececa8\")> = <pages.start_page.StartPage object at 0x7f9a242b9fd0>.driver",
       "time" : {
-        "start" : 1721230363738,
-        "stop" : 1721230363776,
-        "duration" : 38
+        "start" : 1721236955338,
+        "stop" : 1721236955369,
+        "duration" : 31
       }
     } ]
   },
@@ -434,12 +436,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87ed1eb02cf5220d",
+      "uid" : "a3f1f78d532c9b65",
       "status" : "passed",
       "time" : {
-        "start" : 1721230635637,
-        "stop" : 1721230636723,
-        "duration" : 1086
+        "start" : 1721237225500,
+        "stop" : 1721237226590,
+        "duration" : 1090
       }
     } ]
   },
@@ -453,11 +455,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8b40b948713cba1a",
+      "uid" : "afea4000f43cdefa",
       "status" : "passed",
       "time" : {
-        "start" : 1721230203434,
-        "stop" : 1721230203451,
+        "start" : 1721236780824,
+        "stop" : 1721236780841,
         "duration" : 17
       }
     } ]
@@ -472,12 +474,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f17b0e7c95f33ad",
+      "uid" : "cac3737f7d66e268",
       "status" : "passed",
       "time" : {
-        "start" : 1721230490650,
-        "stop" : 1721230490714,
-        "duration" : 64
+        "start" : 1721237081496,
+        "stop" : 1721237081568,
+        "duration" : 72
       }
     } ]
   },
@@ -491,12 +493,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6131b55a8d2f4f38",
+      "uid" : "e59ab638f3a9f1bc",
       "status" : "passed",
       "time" : {
-        "start" : 1721230252117,
-        "stop" : 1721230254165,
-        "duration" : 2048
+        "start" : 1721236831491,
+        "stop" : 1721236833542,
+        "duration" : 2051
       }
     } ]
   },
@@ -510,13 +512,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b371330d97a2adbf",
+      "uid" : "78e6076b99b2fcf3",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230510433,
-        "stop" : 1721230520553,
-        "duration" : 10120
+        "start" : 1721237101408,
+        "stop" : 1721237111522,
+        "duration" : 10114
       }
     } ]
   },
@@ -530,12 +532,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d39d64aa31fd0010",
+      "uid" : "79bea74f597f18f4",
       "status" : "passed",
       "time" : {
-        "start" : 1721230697544,
-        "stop" : 1721230698645,
-        "duration" : 1101
+        "start" : 1721237286726,
+        "stop" : 1721237287831,
+        "duration" : 1105
       }
     } ]
   },
@@ -549,32 +551,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "55e3914e2361244b",
+      "uid" : "b2d8e51e0d575efe",
       "status" : "passed",
       "time" : {
-        "start" : 1721230572786,
-        "stop" : 1721230573873,
-        "duration" : 1087
-      }
-    } ]
-  },
-  "98535e5ef7958fbc8b2eb56721dad578" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fd3c218d2418d014",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1721230621127,
-        "stop" : 1721230631236,
-        "duration" : 10109
+        "start" : 1721237163595,
+        "stop" : 1721237164692,
+        "duration" : 1097
       }
     } ]
   },
@@ -588,13 +570,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "917a61415d40745a",
+      "uid" : "d8f94d78313aaf7a",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae811390>>(<selenium.webdriver.remote.webelement.WebElement (session=\"6460dc86ca19fb2b3f268df80f43bb6c\", element=\"f8e7a3a1-f150-4c6f-ac11-75db9893e2fd\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6460dc86ca19fb2b3f268df80f43bb6c\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae811390>> = <pages.start_page.StartPage object at 0x7facae811390>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6460dc86ca19fb2b3f268df80f43bb6c\")> = <pages.start_page.StartPage object at 0x7facae811390>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242b93d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"c60d72634a7e7364a513ad5a24b84807\", element=\"7bf5ff7a-2a62-46b1-a356-0fdc83fdc9e2\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c60d72634a7e7364a513ad5a24b84807\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242b93d0>> = <pages.start_page.StartPage object at 0x7f9a242b93d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c60d72634a7e7364a513ad5a24b84807\")> = <pages.start_page.StartPage object at 0x7f9a242b93d0>.driver",
       "time" : {
-        "start" : 1721230419702,
-        "stop" : 1721230419746,
-        "duration" : 44
+        "start" : 1721237011186,
+        "stop" : 1721237011228,
+        "duration" : 42
+      }
+    } ]
+  },
+  "98535e5ef7958fbc8b2eb56721dad578" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5b223be4bd7d11a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1721237210743,
+        "stop" : 1721237220854,
+        "duration" : 10111
       }
     } ]
   },
@@ -608,13 +610,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "60dd728d91639aec",
+      "uid" : "37894098446580f4",
       "status" : "broken",
       "statusDetails" : "IndexError: list index out of range",
       "time" : {
-        "start" : 1721230263527,
-        "stop" : 1721230264574,
-        "duration" : 1047
+        "start" : 1721236843077,
+        "stop" : 1721236844128,
+        "duration" : 1051
       }
     } ]
   },
@@ -628,13 +630,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "53970135a2d88e0e",
+      "uid" : "d9438fcabe54e06c",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7fe550>>(<selenium.webdriver.remote.webelement.WebElement (session=\"5dc291f6e8fe13ffaa7a9ae38a9caccd\", element=\"da988ed8-20ee-45fb-8977-9a4baa9b0ded\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5dc291f6e8fe13ffaa7a9ae38a9caccd\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7fe550>> = <pages.start_page.StartPage object at 0x7facae7fe550>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5dc291f6e8fe13ffaa7a9ae38a9caccd\")> = <pages.start_page.StartPage object at 0x7facae7fe550>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a24226850>>(<selenium.webdriver.remote.webelement.WebElement (session=\"0dfc5928d8d77c9ca9f8238a91e55808\", element=\"0b38a58c-b7c8-4aa2-b76c-2291323ba6c2\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"0dfc5928d8d77c9ca9f8238a91e55808\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a24226850>> = <pages.start_page.StartPage object at 0x7f9a24226850>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"0dfc5928d8d77c9ca9f8238a91e55808\")> = <pages.start_page.StartPage object at 0x7f9a24226850>.driver",
       "time" : {
-        "start" : 1721230416223,
-        "stop" : 1721230416260,
-        "duration" : 37
+        "start" : 1721237007345,
+        "stop" : 1721237007385,
+        "duration" : 40
       }
     } ]
   },
@@ -648,12 +650,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fef714a01eee0910",
+      "uid" : "3fc22224ec8ec2b1",
       "status" : "passed",
       "time" : {
-        "start" : 1721230468821,
-        "stop" : 1721230469910,
-        "duration" : 1089
+        "start" : 1721237058810,
+        "stop" : 1721237059901,
+        "duration" : 1091
       }
     } ]
   },
@@ -667,13 +669,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4fd912dd7f5f8e74",
+      "uid" : "f145f15a469a7581",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae84f210>>(<selenium.webdriver.remote.webelement.WebElement (session=\"c542b6e3c2493a1de31918b57d74f88c\", element=\"752959d1-47dd-44d9-b51d-5ef7055a62c2\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c542b6e3c2493a1de31918b57d74f88c\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae84f210>> = <pages.start_page.StartPage object at 0x7facae84f210>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c542b6e3c2493a1de31918b57d74f88c\")> = <pages.start_page.StartPage object at 0x7facae84f210>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242b95d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"b9e79b8cc8ba9b0a9ea3d821649d9547\", element=\"06dd13af-36c2-4cdf-9c03-ce02fc3521fa\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b9e79b8cc8ba9b0a9ea3d821649d9547\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242b95d0>> = <pages.start_page.StartPage object at 0x7f9a242b95d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b9e79b8cc8ba9b0a9ea3d821649d9547\")> = <pages.start_page.StartPage object at 0x7f9a242b95d0>.driver",
       "time" : {
-        "start" : 1721230412334,
-        "stop" : 1721230412364,
-        "duration" : 30
+        "start" : 1721237003756,
+        "stop" : 1721237003787,
+        "duration" : 31
       }
     } ]
   },
@@ -687,12 +689,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f5c354b543086779",
+      "uid" : "bc18d9e3aa4498d",
       "status" : "passed",
       "time" : {
-        "start" : 1721230534242,
-        "stop" : 1721230535335,
-        "duration" : 1093
+        "start" : 1721237125143,
+        "stop" : 1721237126232,
+        "duration" : 1089
       }
     } ]
   },
@@ -706,13 +708,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "780b1d3ff32cbfe2",
+      "uid" : "7cda7276f936873e",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230309472,
-        "stop" : 1721230319547,
-        "duration" : 10075
+        "start" : 1721236892236,
+        "stop" : 1721236902313,
+        "duration" : 10077
       }
     } ]
   },
@@ -726,12 +728,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6af89b82dbedface",
+      "uid" : "338b90253a48b4dc",
       "status" : "passed",
       "time" : {
-        "start" : 1721230277842,
-        "stop" : 1721230279889,
-        "duration" : 2047
+        "start" : 1721236857268,
+        "stop" : 1721236860053,
+        "duration" : 2785
       }
     } ]
   },
@@ -745,12 +747,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "38f8719b21083939",
+      "uid" : "c7a0675a9dd9c292",
       "status" : "passed",
       "time" : {
-        "start" : 1721230667474,
-        "stop" : 1721230668568,
-        "duration" : 1094
+        "start" : 1721237257583,
+        "stop" : 1721237258679,
+        "duration" : 1096
       }
     } ]
   },
@@ -764,32 +766,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9a0a88c6ba0b18be",
+      "uid" : "689ef5cae10abd79",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230609167,
-        "stop" : 1721230619283,
-        "duration" : 10116
-      }
-    } ]
-  },
-  "8786f959b48816d0a4ca25602f490815" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ef5fef7d2f0306e6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1721230281838,
-        "stop" : 1721230283885,
-        "duration" : 2047
+        "start" : 1721237198933,
+        "stop" : 1721237209054,
+        "duration" : 10121
       }
     } ]
   },
@@ -803,12 +786,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fb44831accd0f2c0",
+      "uid" : "4344abd41954e54",
       "status" : "passed",
       "time" : {
-        "start" : 1721230333310,
-        "stop" : 1721230334362,
-        "duration" : 1052
+        "start" : 1721236915969,
+        "stop" : 1721236917022,
+        "duration" : 1053
+      }
+    } ]
+  },
+  "8786f959b48816d0a4ca25602f490815" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2ceb19308ef2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721236862523,
+        "stop" : 1721236866591,
+        "duration" : 4068
       }
     } ]
   },
@@ -822,12 +824,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "77d1a367870efde9",
+      "uid" : "77cc6dca1c28ae7a",
       "status" : "passed",
       "time" : {
-        "start" : 1721230507634,
-        "stop" : 1721230508731,
-        "duration" : 1097
+        "start" : 1721237098557,
+        "stop" : 1721237099648,
+        "duration" : 1091
       }
     } ]
   },
@@ -841,12 +843,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6d98706d5b64b87a",
+      "uid" : "79bc3dd173e368d0",
       "status" : "passed",
       "time" : {
-        "start" : 1721230670230,
-        "stop" : 1721230672328,
-        "duration" : 2098
+        "start" : 1721237260348,
+        "stop" : 1721237261436,
+        "duration" : 1088
       }
     } ]
   },
@@ -860,12 +862,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a03f95ba6ef9b816",
+      "uid" : "c9b77866760b8060",
       "status" : "passed",
       "time" : {
-        "start" : 1721230474642,
-        "stop" : 1721230474663,
-        "duration" : 21
+        "start" : 1721237064542,
+        "stop" : 1721237064572,
+        "duration" : 30
       }
     } ]
   },
@@ -879,12 +881,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cea4beb122bcbcd7",
+      "uid" : "fd765acc47b84f75",
       "status" : "passed",
       "time" : {
-        "start" : 1721230228957,
-        "stop" : 1721230231026,
-        "duration" : 2069
+        "start" : 1721236808128,
+        "stop" : 1721236810193,
+        "duration" : 2065
       }
     } ]
   },
@@ -898,12 +900,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e288b08da1cb8c51",
+      "uid" : "33d00bfa561643ce",
       "status" : "passed",
       "time" : {
-        "start" : 1721230214649,
-        "stop" : 1721230214681,
-        "duration" : 32
+        "start" : 1721236790726,
+        "stop" : 1721236790760,
+        "duration" : 34
       }
     } ]
   },
@@ -917,12 +919,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1b3a16eef966777",
+      "uid" : "1736b4e59647ecac",
       "status" : "passed",
       "time" : {
-        "start" : 1721230494626,
-        "stop" : 1721230494695,
-        "duration" : 69
+        "start" : 1721237085185,
+        "stop" : 1721237085261,
+        "duration" : 76
       }
     } ]
   },
@@ -936,12 +938,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7df40c1f999c0156",
+      "uid" : "7a1d3698e531f0f8",
       "status" : "passed",
       "time" : {
-        "start" : 1721230224937,
-        "stop" : 1721230226991,
-        "duration" : 2054
+        "start" : 1721236804031,
+        "stop" : 1721236806098,
+        "duration" : 2067
       }
     } ]
   },
@@ -955,13 +957,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cd1bccdfd0398cf3",
+      "uid" : "22c1993f9a912a68",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f2bd0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"299f6ca54ac496e73b09264b302ec4fc\", element=\"4e6b5f88-df3d-452f-b67e-1ec27a2013d0\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"299f6ca54ac496e73b09264b302ec4fc\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f2bd0>> = <pages.start_page.StartPage object at 0x7facae7f2bd0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"299f6ca54ac496e73b09264b302ec4fc\")> = <pages.start_page.StartPage object at 0x7facae7f2bd0>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2427c490>>(<selenium.webdriver.remote.webelement.WebElement (session=\"3e9802a7efc3b894a1c4bc4d5d461100\", element=\"4f24e299-c896-43e6-b0d3-85037af4034d\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"3e9802a7efc3b894a1c4bc4d5d461100\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2427c490>> = <pages.start_page.StartPage object at 0x7f9a2427c490>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"3e9802a7efc3b894a1c4bc4d5d461100\")> = <pages.start_page.StartPage object at 0x7f9a2427c490>.driver",
       "time" : {
-        "start" : 1721230369480,
-        "stop" : 1721230369510,
-        "duration" : 30
+        "start" : 1721236960645,
+        "stop" : 1721236960677,
+        "duration" : 32
       }
     } ]
   },
@@ -975,13 +977,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "33dca2213e138613",
+      "uid" : "1cf507dbf844beae",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7ff1d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"1cb3563de2a330ba2448fba2563a9bb5\", element=\"525ac1dd-4f0d-4461-a5fc-e05f59ef3902\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb3563de2a330ba2448fba2563a9bb5\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7ff1d0>> = <pages.start_page.StartPage object at 0x7facae7ff1d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb3563de2a330ba2448fba2563a9bb5\")> = <pages.start_page.StartPage object at 0x7facae7ff1d0>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2427ed10>>(<selenium.webdriver.remote.webelement.WebElement (session=\"0f2122c90b6db4eb9fa2ceb467d55952\", element=\"d15c4b05-dd96-4f34-b65e-2421bd942e19\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"0f2122c90b6db4eb9fa2ceb467d55952\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2427ed10>> = <pages.start_page.StartPage object at 0x7f9a2427ed10>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"0f2122c90b6db4eb9fa2ceb467d55952\")> = <pages.start_page.StartPage object at 0x7f9a2427ed10>.driver",
       "time" : {
-        "start" : 1721230410532,
-        "stop" : 1721230410562,
-        "duration" : 30
+        "start" : 1721237001929,
+        "stop" : 1721237001970,
+        "duration" : 41
       }
     } ]
   },
@@ -995,31 +997,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1319570d61039c66",
+      "uid" : "f605c78744765c1d",
       "status" : "passed",
       "time" : {
-        "start" : 1721230357546,
-        "stop" : 1721230359625,
-        "duration" : 2079
-      }
-    } ]
-  },
-  "3e98650b22d0c584e9c58a25ee566d0e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bc866421b7a20ba7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1721230460297,
-        "stop" : 1721230461386,
-        "duration" : 1089
+        "start" : 1721236949024,
+        "stop" : 1721236951108,
+        "duration" : 2084
       }
     } ]
   },
@@ -1033,12 +1016,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c1b7e26262d3f4d",
+      "uid" : "ee595af820d946af",
       "status" : "passed",
       "time" : {
-        "start" : 1721230500118,
-        "stop" : 1721230500217,
-        "duration" : 99
+        "start" : 1721237090753,
+        "stop" : 1721237090848,
+        "duration" : 95
+      }
+    } ]
+  },
+  "3e98650b22d0c584e9c58a25ee566d0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53841cdcd1c7eb5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721237050341,
+        "stop" : 1721237051434,
+        "duration" : 1093
       }
     } ]
   },
@@ -1052,12 +1054,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "59159b7377b22ea7",
+      "uid" : "4a68112c0c66a243",
       "status" : "passed",
       "time" : {
-        "start" : 1721230353640,
-        "stop" : 1721230355719,
-        "duration" : 2079
+        "start" : 1721236945150,
+        "stop" : 1721236947241,
+        "duration" : 2091
       }
     } ]
   },
@@ -1071,13 +1073,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99c6b64c8f552043",
+      "uid" : "bff06260a15beaf2",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae858550>>(<selenium.webdriver.remote.webelement.WebElement (session=\"db71243683829491232df19ce73c2fbd\", element=\"53249f86-2035-444d-a477-0d78feb22ba9\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"db71243683829491232df19ce73c2fbd\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae858550>> = <pages.start_page.StartPage object at 0x7facae858550>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"db71243683829491232df19ce73c2fbd\")> = <pages.start_page.StartPage object at 0x7facae858550>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242d3ed0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"f20c1ca7561350b61979542e39798e55\", element=\"3ea516e1-9916-4ba2-b7bb-bc2aa07ac861\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f20c1ca7561350b61979542e39798e55\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242d3ed0>> = <pages.start_page.StartPage object at 0x7f9a242d3ed0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f20c1ca7561350b61979542e39798e55\")> = <pages.start_page.StartPage object at 0x7f9a242d3ed0>.driver",
       "time" : {
-        "start" : 1721230424926,
-        "stop" : 1721230435036,
-        "duration" : 10110
+        "start" : 1721237014828,
+        "stop" : 1721237024936,
+        "duration" : 10108
       }
     } ]
   },
@@ -1091,13 +1093,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d73c2d7da1b830bb",
+      "uid" : "f1f7609e7eda2933",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230297662,
-        "stop" : 1721230307738,
-        "duration" : 10076
+        "start" : 1721236880225,
+        "stop" : 1721236890306,
+        "duration" : 10081
       }
     } ]
   },
@@ -1111,13 +1113,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a599d01e10558131",
+      "uid" : "767276e1b70fb714",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ba10>>(<selenium.webdriver.remote.webelement.WebElement (session=\"79a9b06c3434b85046f37d8a7826ab96\", element=\"f011e58c-a891-447b-93dd-33f1599ffc18\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"79a9b06c3434b85046f37d8a7826ab96\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ba10>> = <pages.start_page.StartPage object at 0x7facae80ba10>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"79a9b06c3434b85046f37d8a7826ab96\")> = <pages.start_page.StartPage object at 0x7facae80ba10>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242c2950>>(<selenium.webdriver.remote.webelement.WebElement (session=\"2890e1424841aa5e16ed79534803307b\", element=\"41bfcee5-8de4-46cc-9c2e-fe2d0b584658\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2890e1424841aa5e16ed79534803307b\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242c2950>> = <pages.start_page.StartPage object at 0x7f9a242c2950>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2890e1424841aa5e16ed79534803307b\")> = <pages.start_page.StartPage object at 0x7f9a242c2950>.driver",
       "time" : {
-        "start" : 1721230398761,
-        "stop" : 1721230408869,
-        "duration" : 10108
+        "start" : 1721236990133,
+        "stop" : 1721237000249,
+        "duration" : 10116
       }
     } ]
   },
@@ -1131,12 +1133,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "83614a044861fe20",
+      "uid" : "6382e66ccce753e2",
       "status" : "passed",
       "time" : {
-        "start" : 1721230236601,
-        "stop" : 1721230238662,
-        "duration" : 2061
+        "start" : 1721236815980,
+        "stop" : 1721236818036,
+        "duration" : 2056
       }
     } ]
   },
@@ -1150,33 +1152,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e4e72f1e2e54cdd0",
+      "uid" : "98751eb2b05b7261",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230522418,
-        "stop" : 1721230532539,
-        "duration" : 10121
+        "start" : 1721237113242,
+        "stop" : 1721237123360,
+        "duration" : 10118
       }
     } ]
   },
   "a2b6cc8524e9295db0ed673a239052ea" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6360dcb512d4b454",
-      "status" : "broken",
-      "statusDetails" : "IndexError: list index out of range",
+      "uid" : "e372dacb60841f13",
+      "status" : "passed",
       "time" : {
-        "start" : 1721230266634,
-        "stop" : 1721230267680,
-        "duration" : 1046
+        "start" : 1721236846047,
+        "stop" : 1721236847104,
+        "duration" : 1057
       }
     } ]
   },
@@ -1190,12 +1191,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d265702541afc59d",
+      "uid" : "480a9936d24d5425",
       "status" : "passed",
       "time" : {
-        "start" : 1721230540222,
-        "stop" : 1721230541307,
-        "duration" : 1085
+        "start" : 1721237130775,
+        "stop" : 1721237131872,
+        "duration" : 1097
       }
     } ]
   },
@@ -1209,13 +1210,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed5f6c5e7e0187ae",
+      "uid" : "c8f611889b680656",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7987d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"88324885ae0217bdabca5f4940abf63c\", element=\"edbf5654-54da-4b5f-9b31-9a7a1e58497c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"88324885ae0217bdabca5f4940abf63c\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7987d0>> = <pages.start_page.StartPage object at 0x7facae7987d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"88324885ae0217bdabca5f4940abf63c\")> = <pages.start_page.StartPage object at 0x7facae7987d0>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242653d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"d240df5a439cd67c15e1cd3cbff45963\", element=\"72df20ca-90f2-4fbc-9932-d31611db2c13\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d240df5a439cd67c15e1cd3cbff45963\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242653d0>> = <pages.start_page.StartPage object at 0x7f9a242653d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d240df5a439cd67c15e1cd3cbff45963\")> = <pages.start_page.StartPage object at 0x7f9a242653d0>.driver",
       "time" : {
-        "start" : 1721230361442,
-        "stop" : 1721230361472,
-        "duration" : 30
+        "start" : 1721236953023,
+        "stop" : 1721236953065,
+        "duration" : 42
       }
     } ]
   },
@@ -1229,12 +1230,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "784c8fdca935a70f",
+      "uid" : "191775de39938f9e",
       "status" : "passed",
       "time" : {
-        "start" : 1721230481934,
-        "stop" : 1721230481963,
-        "duration" : 29
+        "start" : 1721237072638,
+        "stop" : 1721237072658,
+        "duration" : 20
       }
     } ]
   },
@@ -1248,12 +1249,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eb2bf5911383e90",
+      "uid" : "e60ce887bc2e781b",
       "status" : "passed",
       "time" : {
-        "start" : 1721230345759,
-        "stop" : 1721230347851,
-        "duration" : 2092
+        "start" : 1721236937092,
+        "stop" : 1721236939188,
+        "duration" : 2096
       }
     } ]
   },
@@ -1267,13 +1268,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b60ec7b1d18384f",
+      "uid" : "d0ee70d35e99c858",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ae50>>(<selenium.webdriver.remote.webelement.WebElement (session=\"c12d7412db8c92258a78c60fbc5751fc\", element=\"94c2afaa-9eb1-4bb2-ad01-a9ef59ba227d\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c12d7412db8c92258a78c60fbc5751fc\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae80ae50>> = <pages.start_page.StartPage object at 0x7facae80ae50>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c12d7412db8c92258a78c60fbc5751fc\")> = <pages.start_page.StartPage object at 0x7facae80ae50>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2426cf90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"9282a82046cb9bea1a6c7420ffbedba4\", element=\"4d291608-1dbb-4cc6-b6f7-0a47ce30c9ea\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9282a82046cb9bea1a6c7420ffbedba4\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2426cf90>> = <pages.start_page.StartPage object at 0x7f9a2426cf90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9282a82046cb9bea1a6c7420ffbedba4\")> = <pages.start_page.StartPage object at 0x7f9a2426cf90>.driver",
       "time" : {
-        "start" : 1721230418023,
-        "stop" : 1721230418062,
-        "duration" : 39
+        "start" : 1721237009499,
+        "stop" : 1721237009531,
+        "duration" : 32
       }
     } ]
   },
@@ -1287,12 +1288,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc80cff4c362d287",
+      "uid" : "1712813723ecdbb5",
       "status" : "passed",
       "time" : {
-        "start" : 1721230206326,
-        "stop" : 1721230206335,
-        "duration" : 9
+        "start" : 1721236782935,
+        "stop" : 1721236782938,
+        "duration" : 3
       }
     } ]
   },
@@ -1306,12 +1307,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2166313040bfbcd",
+      "uid" : "8f45722aef8f1177",
       "status" : "passed",
       "time" : {
-        "start" : 1721230599684,
-        "stop" : 1721230600810,
-        "duration" : 1126
+        "start" : 1721237190426,
+        "stop" : 1721237191517,
+        "duration" : 1091
       }
     } ]
   },
@@ -1325,12 +1326,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7e7938f98ed976",
+      "uid" : "f5f4b433896a65ef",
       "status" : "passed",
       "time" : {
-        "start" : 1721230463070,
-        "stop" : 1721230464159,
-        "duration" : 1089
+        "start" : 1721237053126,
+        "stop" : 1721237054226,
+        "duration" : 1100
       }
     } ]
   },
@@ -1344,13 +1345,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "68b993738aecb236",
+      "uid" : "16ba2ef84368c5eb",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230555106,
-        "stop" : 1721230565224,
-        "duration" : 10118
+        "start" : 1721237145629,
+        "stop" : 1721237155752,
+        "duration" : 10123
       }
     } ]
   },
@@ -1364,12 +1365,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "56294d0c5ade23de",
+      "uid" : "b8e4ef87a8d0af10",
       "status" : "passed",
       "time" : {
-        "start" : 1721230223228,
-        "stop" : 1721230223256,
-        "duration" : 28
+        "start" : 1721236801798,
+        "stop" : 1721236801818,
+        "duration" : 20
       }
     } ]
   },
@@ -1383,13 +1384,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3223653cb6b417",
+      "uid" : "adbc90e7cd7a55e5",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae8588d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"4acddf91bbd0d64f96d4f52f33315b63\", element=\"e28eaba6-e547-411d-a8a0-9af310b93b84\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4acddf91bbd0d64f96d4f52f33315b63\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae8588d0>> = <pages.start_page.StartPage object at 0x7facae8588d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4acddf91bbd0d64f96d4f52f33315b63\")> = <pages.start_page.StartPage object at 0x7facae8588d0>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242d2d90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"eab0195ead317e49eb60afc908bdbb4e\", element=\"59a7f899-cb1c-4437-bd34-3bcee43961e9\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"eab0195ead317e49eb60afc908bdbb4e\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a242d2d90>> = <pages.start_page.StartPage object at 0x7f9a242d2d90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"eab0195ead317e49eb60afc908bdbb4e\")> = <pages.start_page.StartPage object at 0x7f9a242d2d90>.driver",
       "time" : {
-        "start" : 1721230436735,
-        "stop" : 1721230446842,
-        "duration" : 10107
+        "start" : 1721237026648,
+        "stop" : 1721237036764,
+        "duration" : 10116
       }
     } ]
   },
@@ -1403,32 +1404,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67b83b68641ab5e2",
+      "uid" : "70679ae941fb31f5",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f8850>>(<selenium.webdriver.remote.webelement.WebElement (session=\"d61ad37102542cbbe4e30b5c458ff382\", element=\"45dd3535-18c7-4c4e-b9fd-1f4667dfee60\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d61ad37102542cbbe4e30b5c458ff382\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7f8850>> = <pages.start_page.StartPage object at 0x7facae7f8850>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"d61ad37102542cbbe4e30b5c458ff382\")> = <pages.start_page.StartPage object at 0x7facae7f8850>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a24276a90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"cbe7dba6276de1dfc563161228b15af7\", element=\"0fd657d0-33f8-4b39-94ad-a880b5a6fcb9\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"cbe7dba6276de1dfc563161228b15af7\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a24276a90>> = <pages.start_page.StartPage object at 0x7f9a24276a90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"cbe7dba6276de1dfc563161228b15af7\")> = <pages.start_page.StartPage object at 0x7f9a24276a90>.driver",
       "time" : {
-        "start" : 1721230373229,
-        "stop" : 1721230373265,
-        "duration" : 36
-      }
-    } ]
-  },
-  "72b7a5bcad3521ee4c9e4360d127814b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "16660b322c5f595",
-      "status" : "passed",
-      "time" : {
-        "start" : 1721230221139,
-        "stop" : 1721230221159,
-        "duration" : 20
+        "start" : 1721236964702,
+        "stop" : 1721236964741,
+        "duration" : 39
       }
     } ]
   },
@@ -1442,12 +1424,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ef9a0a35fd09fd26",
+      "uid" : "ddba808f9156f3dd",
       "status" : "passed",
       "time" : {
-        "start" : 1721230483617,
-        "stop" : 1721230483636,
-        "duration" : 19
+        "start" : 1721237074342,
+        "stop" : 1721237074374,
+        "duration" : 32
+      }
+    } ]
+  },
+  "72b7a5bcad3521ee4c9e4360d127814b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e1b61271ee9a2fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721236799443,
+        "stop" : 1721236799463,
+        "duration" : 20
       }
     } ]
   },
@@ -1461,12 +1462,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9112edd1e0b7d97",
+      "uid" : "7c9afdf62dbe6670",
       "status" : "passed",
       "time" : {
-        "start" : 1721230632880,
-        "stop" : 1721230633975,
-        "duration" : 1095
+        "start" : 1721237222713,
+        "stop" : 1721237223807,
+        "duration" : 1094
       }
     } ]
   },
@@ -1480,12 +1481,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd16af405e35e7ad",
+      "uid" : "89b81c0b79528d40",
       "status" : "passed",
       "time" : {
-        "start" : 1721230605419,
-        "stop" : 1721230607507,
-        "duration" : 2088
+        "start" : 1721237196151,
+        "stop" : 1721237197250,
+        "duration" : 1099
       }
     } ]
   },
@@ -1499,12 +1500,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c3bc8a3f727bade9",
+      "uid" : "f6b0bfef9b9822b",
       "status" : "passed",
       "time" : {
-        "start" : 1721230480272,
-        "stop" : 1721230480292,
-        "duration" : 20
+        "start" : 1721237070924,
+        "stop" : 1721237070946,
+        "duration" : 22
       }
     } ]
   },
@@ -1518,11 +1519,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f3a9968358b25ae",
+      "uid" : "52beb22c4df75194",
       "status" : "passed",
       "time" : {
-        "start" : 1721230209034,
-        "stop" : 1721230209037,
+        "start" : 1721236784857,
+        "stop" : 1721236784860,
         "duration" : 3
       }
     } ]
@@ -1537,12 +1538,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2c7342dad07d547",
+      "uid" : "126977acbddc6c45",
       "status" : "passed",
       "time" : {
-        "start" : 1721230211023,
-        "stop" : 1721230211037,
-        "duration" : 14
+        "start" : 1721236786857,
+        "stop" : 1721236786866,
+        "duration" : 9
       }
     } ]
   },
@@ -1556,12 +1557,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "63a4027feb3af15c",
+      "uid" : "7d989b7419b18b5f",
       "status" : "passed",
       "time" : {
-        "start" : 1721230700330,
-        "stop" : 1721230701424,
-        "duration" : 1094
+        "start" : 1721237289491,
+        "stop" : 1721237290588,
+        "duration" : 1097
       }
     } ]
   },
@@ -1575,12 +1576,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "28cbed5cd207b997",
+      "uid" : "a19e83d3468eefee",
       "status" : "passed",
       "time" : {
-        "start" : 1721230248135,
-        "stop" : 1721230250177,
-        "duration" : 2042
+        "start" : 1721236827724,
+        "stop" : 1721236829773,
+        "duration" : 2049
       }
     } ]
   },
@@ -1594,13 +1595,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da03d37fb3c7caa0",
+      "uid" : "cf7bc69d2e9779bf",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230587693,
-        "stop" : 1721230597813,
-        "duration" : 10120
+        "start" : 1721237178575,
+        "stop" : 1721237188694,
+        "duration" : 10119
       }
     } ]
   },
@@ -1614,12 +1615,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "218655e50c0c3bb",
+      "uid" : "9d5deaf44d920b7",
       "status" : "passed",
       "time" : {
-        "start" : 1721230212828,
-        "stop" : 1721230212842,
-        "duration" : 14
+        "start" : 1721236788730,
+        "stop" : 1721236788736,
+        "duration" : 6
       }
     } ]
   },
@@ -1633,12 +1634,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a6add4d61ee92784",
+      "uid" : "6f9d06a3e02258c8",
       "status" : "passed",
       "time" : {
-        "start" : 1721230349732,
-        "stop" : 1721230351815,
-        "duration" : 2083
+        "start" : 1721236941147,
+        "stop" : 1721236943232,
+        "duration" : 2085
       }
     } ]
   },
@@ -1652,13 +1653,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c0dc1f8d416a5d63",
+      "uid" : "93eb0ea1b12cf6e4",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7e08d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"7fa009e15ae8fd6b3d1136bfbe621bbd\", element=\"48f3fb4d-0f40-48da-86ea-e1273806b2ee\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7fa009e15ae8fd6b3d1136bfbe621bbd\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7e08d0>> = <pages.start_page.StartPage object at 0x7facae7e08d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"7fa009e15ae8fd6b3d1136bfbe621bbd\")> = <pages.start_page.StartPage object at 0x7facae7e08d0>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>>(<selenium.webdriver.remote.webelement.WebElement (session=\"29978276b2a4e49642faa7939b9efd70\", element=\"59d632c9-9b89-4c12-9a41-2a60eed5be0c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2429b490>> = <pages.start_page.StartPage object at 0x7f9a2429b490>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"29978276b2a4e49642faa7939b9efd70\")> = <pages.start_page.StartPage object at 0x7f9a2429b490>.driver",
       "time" : {
-        "start" : 1721230414142,
-        "stop" : 1721230414172,
-        "duration" : 30
+        "start" : 1721237005554,
+        "stop" : 1721237005586,
+        "duration" : 32
       }
     } ]
   },
@@ -1672,32 +1673,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a25b77c355c311ce",
+      "uid" : "8244ba4a89e6c849",
       "status" : "passed",
       "time" : {
-        "start" : 1721230503645,
-        "stop" : 1721230503743,
-        "duration" : 98
-      }
-    } ]
-  },
-  "cc94405f94620eaae32c4493af1156f5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b5a73d5932985a18",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1721230321492,
-        "stop" : 1721230331567,
-        "duration" : 10075
+        "start" : 1721237094534,
+        "stop" : 1721237094663,
+        "duration" : 129
       }
     } ]
   },
@@ -1711,12 +1692,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af6dd0c0d483c7f2",
+      "uid" : "38dbbeb228692e2e",
       "status" : "passed",
       "time" : {
-        "start" : 1721230240332,
-        "stop" : 1721230242397,
-        "duration" : 2065
+        "start" : 1721236819722,
+        "stop" : 1721236821786,
+        "duration" : 2064
+      }
+    } ]
+  },
+  "cc94405f94620eaae32c4493af1156f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab1d3dc6df25816",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1721236904129,
+        "stop" : 1721236914209,
+        "duration" : 10080
       }
     } ]
   },
@@ -1730,12 +1731,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc0faf762df1d9f0",
+      "uid" : "8cee2936ef57e99d",
       "status" : "passed",
       "time" : {
-        "start" : 1721230602480,
-        "stop" : 1721230603580,
-        "duration" : 1100
+        "start" : 1721237193200,
+        "stop" : 1721237194297,
+        "duration" : 1097
       }
     } ]
   },
@@ -1749,12 +1750,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a592a0fce1076914",
+      "uid" : "88a3fd2e4f5d7685",
       "status" : "passed",
       "time" : {
-        "start" : 1721230216630,
-        "stop" : 1721230216661,
-        "duration" : 31
+        "start" : 1721236793252,
+        "stop" : 1721236793273,
+        "duration" : 21
       }
     } ]
   },
@@ -1768,31 +1769,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c3c43719d6e2ce",
+      "uid" : "ea59c2772e8b21d3",
       "status" : "passed",
       "time" : {
-        "start" : 1721230570004,
-        "stop" : 1721230571090,
-        "duration" : 1086
-      }
-    } ]
-  },
-  "b950b76b527054df38c985a319947d0d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ee41f260093b567d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1721230478544,
-        "stop" : 1721230478571,
-        "duration" : 27
+        "start" : 1721237160769,
+        "stop" : 1721237161869,
+        "duration" : 1100
       }
     } ]
   },
@@ -1806,12 +1788,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e62fa8b0c77076f",
+      "uid" : "704ee6b48659f468",
       "status" : "passed",
       "time" : {
-        "start" : 1721230471712,
-        "stop" : 1721230472800,
-        "duration" : 1088
+        "start" : 1721237061638,
+        "stop" : 1721237062730,
+        "duration" : 1092
+      }
+    } ]
+  },
+  "b950b76b527054df38c985a319947d0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41a536ed9cb274a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721237069072,
+        "stop" : 1721237069102,
+        "duration" : 30
       }
     } ]
   },
@@ -1825,12 +1826,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b8816a72da221ef9",
+      "uid" : "148bdea46a71cde5",
       "status" : "passed",
       "time" : {
-        "start" : 1721230498267,
-        "stop" : 1721230498365,
-        "duration" : 98
+        "start" : 1721237088777,
+        "stop" : 1721237088882,
+        "duration" : 105
       }
     } ]
   },
@@ -1844,13 +1845,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "342775c007121d97",
+      "uid" : "f7846c2b8f030a06",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae856750>>(<selenium.webdriver.remote.webelement.WebElement (session=\"30f67848ec92b844524c11e4e584f2af\", element=\"dc38c3ad-3104-4cb1-9265-f7c3791cb3c5\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"30f67848ec92b844524c11e4e584f2af\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae856750>> = <pages.start_page.StartPage object at 0x7facae856750>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"30f67848ec92b844524c11e4e584f2af\")> = <pages.start_page.StartPage object at 0x7facae856750>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2408ded0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"ffe36db1dd342d9eb06b49ce1758edd6\", element=\"5bc3633a-0c09-464b-b8e9-4844003b25c7\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ffe36db1dd342d9eb06b49ce1758edd6\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2408ded0>> = <pages.start_page.StartPage object at 0x7f9a2408ded0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ffe36db1dd342d9eb06b49ce1758edd6\")> = <pages.start_page.StartPage object at 0x7f9a2408ded0>.driver",
       "time" : {
-        "start" : 1721230448510,
-        "stop" : 1721230458619,
-        "duration" : 10109
+        "start" : 1721237038545,
+        "stop" : 1721237048658,
+        "duration" : 10113
       }
     } ]
   },
@@ -1864,13 +1865,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ddc51fd86ff6b489",
+      "uid" : "e128f2eb87ff55f",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae786e10>>(<selenium.webdriver.remote.webelement.WebElement (session=\"24a3412138c703545d6eabac730a4fc8\", element=\"1487d573-ada5-4ae1-a23d-9004e1a81290\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"24a3412138c703545d6eabac730a4fc8\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae786e10>> = <pages.start_page.StartPage object at 0x7facae786e10>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"24a3412138c703545d6eabac730a4fc8\")> = <pages.start_page.StartPage object at 0x7facae786e10>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a24204fd0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"874f8594df5c244cbb824c1b20e4947a\", element=\"51a8e0c5-62aa-4b2b-8141-f52f7392f535\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"874f8594df5c244cbb824c1b20e4947a\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a24204fd0>> = <pages.start_page.StartPage object at 0x7f9a24204fd0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"874f8594df5c244cbb824c1b20e4947a\")> = <pages.start_page.StartPage object at 0x7f9a24204fd0>.driver",
       "time" : {
-        "start" : 1721230386947,
-        "stop" : 1721230397058,
-        "duration" : 10111
+        "start" : 1721236978315,
+        "stop" : 1721236988427,
+        "duration" : 10112
       }
     } ]
   },
@@ -1884,13 +1885,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e74ae783dc91cbed",
+      "uid" : "752f9bd09dd7b4b8",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b4e90>>(<selenium.webdriver.remote.webelement.WebElement (session=\"b81b0875a2e0ac172fa09da214237d30\", element=\"05352478-4359-4498-8f4c-8d916efb004c\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b81b0875a2e0ac172fa09da214237d30\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b4e90>> = <pages.start_page.StartPage object at 0x7facae7b4e90>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b81b0875a2e0ac172fa09da214237d30\")> = <pages.start_page.StartPage object at 0x7facae7b4e90>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2425a590>>(<selenium.webdriver.remote.webelement.WebElement (session=\"2e1981f3126b0dbbaf1e1398a3ab6b41\", element=\"b99ff08a-7820-4d98-bfda-60db8974bc37\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2e1981f3126b0dbbaf1e1398a3ab6b41\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2425a590>> = <pages.start_page.StartPage object at 0x7f9a2425a590>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2e1981f3126b0dbbaf1e1398a3ab6b41\")> = <pages.start_page.StartPage object at 0x7f9a2425a590>.driver",
       "time" : {
-        "start" : 1721230423033,
-        "stop" : 1721230423062,
-        "duration" : 29
+        "start" : 1721237013021,
+        "stop" : 1721237013066,
+        "duration" : 45
       }
     } ]
   },
@@ -1904,12 +1905,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ecd12944b6be7cc8",
+      "uid" : "94826f5e6073aaba",
       "status" : "passed",
       "time" : {
-        "start" : 1721230465930,
-        "stop" : 1721230467019,
-        "duration" : 1089
+        "start" : 1721237055982,
+        "stop" : 1721237057075,
+        "duration" : 1093
       }
     } ]
   },
@@ -1923,11 +1924,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eab022e91078380d",
+      "uid" : "ea0020b645e74c6e",
       "status" : "passed",
       "time" : {
-        "start" : 1721230496419,
-        "stop" : 1721230496522,
+        "start" : 1721237086951,
+        "stop" : 1721237087054,
         "duration" : 103
       }
     } ]
@@ -1942,12 +1943,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a05aca63aca16c5c",
+      "uid" : "1198efdff97941d2",
       "status" : "passed",
       "time" : {
-        "start" : 1721230336121,
-        "stop" : 1721230337178,
-        "duration" : 1057
+        "start" : 1721236918937,
+        "stop" : 1721236919982,
+        "duration" : 1045
       }
     } ]
   },
@@ -1961,12 +1962,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2858b2e5cd45228",
+      "uid" : "2b6666a8f1694458",
       "status" : "passed",
       "time" : {
-        "start" : 1721230537219,
-        "stop" : 1721230538305,
-        "duration" : 1086
+        "start" : 1721237127940,
+        "stop" : 1721237129037,
+        "duration" : 1097
       }
     } ]
   },
@@ -1980,13 +1981,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e43fd961b9923c5",
+      "uid" : "99fc2751788c531e",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b43d0>>(<selenium.webdriver.remote.webelement.WebElement (session=\"1cb191eae06824068a588e653a6d7a20\", element=\"4ea852b5-37dd-4991-ad81-1a8fb9748a27\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb191eae06824068a588e653a6d7a20\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7facae7b43d0>> = <pages.start_page.StartPage object at 0x7facae7b43d0>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"1cb191eae06824068a588e653a6d7a20\")> = <pages.start_page.StartPage object at 0x7facae7b43d0>.driver",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2426d010>>(<selenium.webdriver.remote.webelement.WebElement (session=\"f4c743776e25da0b378c0b30ead6155f\", element=\"0b2553bc-0176-403b-8ce3-35c4f89612be\")>, <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f4c743776e25da0b378c0b30ead6155f\")>)\n +    where <bound method StartPage.check_image_visibility of <pages.start_page.StartPage object at 0x7f9a2426d010>> = <pages.start_page.StartPage object at 0x7f9a2426d010>.check_image_visibility\n +    and   <selenium.webdriver.chrome.webdriver.WebDriver (session=\"f4c743776e25da0b378c0b30ead6155f\")> = <pages.start_page.StartPage object at 0x7f9a2426d010>.driver",
       "time" : {
-        "start" : 1721230375135,
-        "stop" : 1721230385241,
-        "duration" : 10106
+        "start" : 1721236966480,
+        "stop" : 1721236976593,
+        "duration" : 10113
       }
     } ]
   },
@@ -2000,12 +2001,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "66b2f6c6c249c77e",
+      "uid" : "7d5158e3a47d8486",
       "status" : "passed",
       "time" : {
-        "start" : 1721230488880,
-        "stop" : 1721230488952,
-        "duration" : 72
+        "start" : 1721237079736,
+        "stop" : 1721237079801,
+        "duration" : 65
       }
     } ]
   },
@@ -2019,13 +2020,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f7ed404fd614928",
+      "uid" : "1eb9aebc6c93301",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230285823,
-        "stop" : 1721230295904,
-        "duration" : 10081
+        "start" : 1721236868348,
+        "stop" : 1721236878425,
+        "duration" : 10077
       }
     } ]
   },
@@ -2039,13 +2040,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "858487812a181ca9",
+      "uid" : "a5946c36b334a81c",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230673995,
-        "stop" : 1721230684109,
-        "duration" : 10114
+        "start" : 1721237263116,
+        "stop" : 1721237273229,
+        "duration" : 10113
       }
     } ]
   },
@@ -2059,13 +2060,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "747ffa75d5bde2fc",
+      "uid" : "109f729d008687fd",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230575727,
-        "stop" : 1721230585839,
-        "duration" : 10112
+        "start" : 1721237166588,
+        "stop" : 1721237176702,
+        "duration" : 10114
       }
     } ]
   },
@@ -2079,12 +2080,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0b91f38a9d3c5ec",
+      "uid" : "b2c89277a7042aa2",
       "status" : "passed",
       "time" : {
-        "start" : 1721230476635,
-        "stop" : 1721230476655,
-        "duration" : 20
+        "start" : 1721237067356,
+        "stop" : 1721237067377,
+        "duration" : 21
       }
     } ]
   },
@@ -2098,12 +2099,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e38a1dbc60e61e4",
+      "uid" : "e36713b71e2f3125",
       "status" : "passed",
       "time" : {
-        "start" : 1721230244077,
-        "stop" : 1721230246119,
-        "duration" : 2042
+        "start" : 1721236823488,
+        "stop" : 1721236825532,
+        "duration" : 2044
       }
     } ]
   },
@@ -2117,13 +2118,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fdf2f253e5bee573",
+      "uid" : "e7eab2f13ebe6eab",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230543162,
-        "stop" : 1721230553270,
-        "duration" : 10108
+        "start" : 1721237133601,
+        "stop" : 1721237143714,
+        "duration" : 10113
       }
     } ]
   },
@@ -2137,13 +2138,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "26f59d0c3292e814",
+      "uid" : "b3d7c9fd3a514e40",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1721230641122,
-        "stop" : 1721230651238,
-        "duration" : 10116
+        "start" : 1721237231018,
+        "stop" : 1721237241139,
+        "duration" : 10121
       }
     } ]
   },
@@ -2157,12 +2158,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e771f093b8b639f8",
+      "uid" : "5722189656bed1ed",
       "status" : "passed",
       "time" : {
-        "start" : 1721230567066,
-        "stop" : 1721230568164,
-        "duration" : 1098
+        "start" : 1721237157491,
+        "stop" : 1721237158586,
+        "duration" : 1095
       }
     } ]
   }
