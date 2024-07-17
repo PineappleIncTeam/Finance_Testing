@@ -9,7 +9,7 @@ on:
         default: all
         type: choice
         options:
-          - tests_api
+          - Start_page
           - tests_ui
           - test_account_page
           - test_main_page
@@ -34,51 +34,51 @@ jobs:
           ref: gh-pages
           path: ./.github/gh-pages
 
-      - name: Set up environment variables
-        run: |
-          echo "AUTH_EMAIL=${{ secrets.AUTH_EMAIL }}" >> .env
-          echo "AUTH_LOGIN=${{ secrets.AUTH_LOGIN }}" >> .env
-          echo "AUTH_PASS=${{ secrets.AUTH_PASS }}" >> .env
-          echo "PWD_NOT_REGISTERED=${{ secrets.PWD_NOT_REGISTERED }}" >> .env
-          echo "PWD_REGISTERED=${{ secrets.PWD_REGISTERED }}" >> .env
-          echo "USR_NOT_REGISTERED=${{ secrets.USR_NOT_REGISTERED }}" >> .env
-          echo "USR_REGISTERED=${{ secrets.USR_REGISTERED }}" >> .env
+#      - name: Set up environment variables
+#        run: |
+#          echo "AUTH_EMAIL=${{ secrets.AUTH_EMAIL }}" >> .env
+#          echo "AUTH_LOGIN=${{ secrets.AUTH_LOGIN }}" >> .env
+#          echo "AUTH_PASS=${{ secrets.AUTH_PASS }}" >> .env
+#          echo "PWD_NOT_REGISTERED=${{ secrets.PWD_NOT_REGISTERED }}" >> .env
+#          echo "PWD_REGISTERED=${{ secrets.PWD_REGISTERED }}" >> .env
+#          echo "USR_NOT_REGISTERED=${{ secrets.USR_NOT_REGISTERED }}" >> .env
+#          echo "USR_REGISTERED=${{ secrets.USR_REGISTERED }}" >> .env
 
       - name: Set test command
         run: |
           case "${{ github.event.inputs.deployment_target }}" in
-            tests_api)
-              echo "TEST_COMMAND=pytest -sv tests/tests_api/ --alluredir=allure-results" >> .env ;;
-            tests_ui)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env ;;
-            test_account_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page.py --alluredir=allure-results" >> .env ;;
-            test_main_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_main_page.py --alluredir=allure-results" >> .env ;;
-            test_login_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_login_page.py --alluredir=allure-results" >> .env ;;
-            test_orders_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_orders_page.py --alluredir=allure-results" >> .env ;;
-            test_registration_page)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_registration_page.py --alluredir=allure-results" >> .env ;;
-            test_restore_pwd)
-              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_restore_pwd.py --alluredir=allure-results" >> .env ;;
-            tests_integration)
-              echo "TEST_COMMAND=pytest -sv tests/tests_integration/ --alluredir=allure-results" >> .env ;;
+            Start_page)
+              echo "TEST_COMMAND=pytest -sv tests/test_start_page/ --alluredir=allure-results" >> .env ;;
+#            tests_ui)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/ --alluredir=allure-results" >> .env ;;
+#            test_account_page)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_account_page.py --alluredir=allure-results" >> .env ;;
+#            test_main_page)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_main_page.py --alluredir=allure-results" >> .env ;;
+#            test_login_page)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_login_page.py --alluredir=allure-results" >> .env ;;
+#            test_orders_page)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_orders_page.py --alluredir=allure-results" >> .env ;;
+#            test_registration_page)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_registration_page.py --alluredir=allure-results" >> .env ;;
+#            test_restore_pwd)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_ui/test_restore_pwd.py --alluredir=allure-results" >> .env ;;
+#            tests_integration)
+#              echo "TEST_COMMAND=pytest -sv tests/tests_integration/ --alluredir=allure-results" >> .env ;;
             all)
               echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> .env ;;
-            *)
-              echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> .env ;;
+#            *)
+#              echo "TEST_COMMAND=pytest -sv tests/ --alluredir=allure-results" >> .env ;;
           esac
 
       - name: Run Tests using docker-compose
         run: |
           docker-compose up --exit-code-from regression || true
 
-      - name: Copy history from gh-pages to allure-results
-        run: |
-          sudo mkdir -p allure-results/history
-          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
+#      - name: Copy history from gh-pages to allure-results
+#        run: |
+#          sudo mkdir -p allure-results/history
+#          sudo cp -R ./.github/gh-pages/history/* allure-results/history/
 
       - name: Generate Allure report
         run: |
