@@ -31,7 +31,7 @@ jobs:
         run: |
           case "${{ github.event.inputs.deployment_target }}" in
             Start_page)
-              echo "TEST_COMMAND=pytest -sv tests/test_start_page/ --alluredir=allure-results" >> .env ;;
+              echo "TEST_COMMAND=pytest -sv tests/test_start_page.py --alluredir=allure-results" >> .env ;;
             Start_site_access)
               echo "TEST_COMMAND=pytest -sv tests/test_start_page.py::TestStartPage::test_site_access --alluredir=allure-results" >> .env ;;
             all)
